@@ -76,10 +76,11 @@ const lines = readFileSync(GOLDEN, "utf8").replace(/^﻿/, "").trim().split("\n"
 const gold = [];
 for (const l of lines.slice(1)) {
   const c = l.match(/"([^"]|"")*"/g)?.map((x) => x.slice(1, -1).replace(/""/g, '"')) || [];
-  const [name, , need, write, note] = c;
+  const [name, url, need, write, note] = c;
   if (!name || need === "" || need === undefined) continue;
   gold.push({
     name: name.trim(),
+    url: (url || "").trim(),
     need: Number(need),
     write: /^(да|yes|y|1|true)$/i.test((write || "").trim()),
     note: note || "",
@@ -93,10 +94,13 @@ if (!gold.length) {
 }
 
 // ── сопоставить ──────────────────────────────────────────────────
+// Сопоставляем по адресу: две точки одной фирмы носят одно название,
+// и по имени твоя оценка легла бы не на тот сайт.
+const byUrl = new Map(judged.map((r) => [r.url, r]));
 const byName = new Map(judged.map((r) => [r.name, r]));
 const pairs = [];
 for (const g of gold) {
-  const j = byName.get(g.name);
+  const j = byUrl.get(g.url) || byName.get(g.name);
   if (j?.verdict) pairs.push({ ...g, m: j.verdict, url: j.url, judged: j.judged });
 }
 

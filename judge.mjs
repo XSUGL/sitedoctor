@@ -185,14 +185,18 @@ if (!existsSync(IN)) {
   process.exit(1);
 }
 const all = JSON.parse(readFileSync(IN, "utf8"));
+
+// Ключ по адресу, а не по названию: две точки одной фирмы носят одно имя,
+// и по имени вердикт одной подставился бы обеим.
+const key = (r) => r.url || r.name;
 const done = !REDO && existsSync(OUT)
-  ? new Map(JSON.parse(readFileSync(OUT, "utf8")).map((r) => [r.name, r]))
+  ? new Map(JSON.parse(readFileSync(OUT, "utf8")).map((r) => [key(r), r]))
   : new Map();
 
 const byRule = [];
 const forModel = [];
 for (const s of all) {
-  if (done.has(s.name)) continue;
+  if (done.has(key(s))) continue;
   const r = withoutModel(s);
   if (r) byRule.push(r); else forModel.push(s);
 }

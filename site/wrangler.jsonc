@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sitedoctor",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    // binding, а не прямая отдача: сначала проверяем пароль,
+    // и только потом Worker сам достаёт файл
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+  "observability": { "enabled": true }
+}
