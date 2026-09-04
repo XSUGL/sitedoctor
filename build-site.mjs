@@ -92,6 +92,11 @@ if (existsSync(YSITE)) {
 
   writeFileSync(`${YSITE}/doctor-data.js`,
     `// Сгенерировано: cd ~/sitedoctor && node build-site.mjs\n` +
+    `//\n` +
+    `// ВНИМАНИЕ: здесь названия, адреса и вердикты по реальным заведениям.\n` +
+    `// Репозиторий ysite приватный, и этот файл лежит в нём только поэтому.\n` +
+    `// Прежде чем открывать репозиторий публично, удали этот файл и добавь\n` +
+    `// его в .gitignore, иначе разбор чужих сайтов станет общедоступным.\n` +
     `export const DOCTOR_DATA = ${JSON.stringify(payload)};\n`);
 
   console.log(`📦 ~/ysite/worker/doctor-page.js и doctor-data.js обновлены`);
