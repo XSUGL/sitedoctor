@@ -293,7 +293,10 @@ function evals() {
   box.append(t);
 }
 
-fetch("data.json", { cache: "no-store" })
+// Один и тот же файл работает в двух местах: отдельным Worker'ом,
+// где данные лежат рядом, и внутри yaroslavyuzvak.info, где они
+// приходят из /api/doctor за паролем. Адрес задаёт тот, кто встроил.
+fetch(window.DATA_URL || "data.json", { cache: "no-store" })
   .then(r => r.ok ? r.json() : Promise.reject(new Error("HTTP " + r.status)))
   .then(d => {
     DATA = d;

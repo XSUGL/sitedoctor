@@ -73,5 +73,31 @@ writeFileSync("site/public/data.json", JSON.stringify(payload));
 const judgedN = rows.filter((r) => r.need !== null).length;
 const kb = Math.round(JSON.stringify(payload).length / 1024);
 console.log(`\n📦 site/public/data.json  ${rows.length} сайтов, ${judgedN} с вердиктом, ${kb} КБ`);
-console.log(`\n   Посмотреть локально:  cd site && npx wrangler dev`);
-console.log(`   Выложить:             cd site && npx wrangler deploy\n`);
+
+// ── встраивание в основной сайт ──────────────────────────────────
+// Файл в папке ассетов Cloudflare отдаётся ДО того, как отработает
+// Worker, то есть в обход пароля. Поэтому и страницу, и данные
+// зашиваем прямо в сборку Worker'а: наружу они уйдут только после
+// проверки доступа. Так же там устроен /stats.
+const YSITE = `${process.env.HOME}/ysite/worker`;
+if (existsSync(YSITE)) {
+  const html = readFileSync("site/public/index.html", "utf8");
+  const lit = (s) => "`" + s.replace(/\\/g, "\\\\").replace(/`/g, "\\`")
+                            .replace(/\$\{/g, "\\${") + "`";
+
+  writeFileSync(`${YSITE}/doctor-page.js`,
+    `// Сгенерировано: cd ~/sitedoctor && node build-site.mjs\n` +
+    `// Править надо ~/sitedoctor/site/public/index.html, не этот файл.\n` +
+    `export const DOCTOR_HTML = ${lit(html)};\n`);
+
+  writeFileSync(`${YSITE}/doctor-data.js`,
+    `// Сгенерировано: cd ~/sitedoctor && node build-site.mjs\n` +
+    `export const DOCTOR_DATA = ${JSON.stringify(payload)};\n`);
+
+  console.log(`📦 ~/ysite/worker/doctor-page.js и doctor-data.js обновлены`);
+  console.log(`\n   Выложить на свой домен:\n`);
+  console.log(`     cd ~/ysite && npx wrangler deploy`);
+  console.log(`\n   Потом открой yaroslavyuzvak.info/doctor с тем же паролем, что и /stats\n`);
+} else {
+  console.log(`\n   Отдельным сайтом:  cd site && npx wrangler deploy\n`);
+}
