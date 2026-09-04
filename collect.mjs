@@ -19,7 +19,12 @@ const flag = (n, d) => { const i = args.indexOf("--" + n); return i === -1 ? d :
 
 const ONE = flag("url", "");
 const LIMIT = Number(flag("limit", 0));
-const SOURCE = flag("source", "/Users/yaroslavyuzvak/leadfinder/all-emails.csv");
+// Свой список задаётся флагом --source. По умолчанию берём тот, что рядом
+// с проектом, а если его нет, шаблон из examples: репозиторий должен
+// запускаться у любого, кто его склонировал, а не только на моей машине.
+const SOURCE = flag("source",
+  [`${process.env.HOME}/leadfinder/all-emails.csv`, "sites.csv", "examples/sample-sites.csv"]
+    .find((p) => existsSync(p)) || "sites.csv");
 const OUT = flag("out", "signals.json");
 const CONCURRENCY = 6;
 
