@@ -1,0 +1,11 @@
+{
+  "name": "sitedoctor",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Собирает факты о сайте заведения и выносит вердикт: что чинить и стоит ли писать",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.123.0",
+    "zod": "^3.25.0"
+  }
+}
