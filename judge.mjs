@@ -15,10 +15,8 @@
 
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import Anthropic from "@anthropic-ai/sdk";
-import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
-// Именно zod/v4: zodOutputFormat ждёт схемы нового образца,
-// на классическом zod он падает "Cannot read properties of undefined".
-import { z } from "zod/v4";
+import { Verdict, SYSTEM, brief, withoutModel } from "./brain.mjs";
+import { claudeAsker, freeAsker, emptyUsage, CLAUDE_PRICE as PRICE, spentOn } from "./ask.mjs";
 
 const args = process.argv.slice(2);
 const has = (n) => args.includes("--" + n);
@@ -45,155 +43,6 @@ const OUT = flag("out", FREE ? "judged-free.json" : "judged.json");
 const PARALLEL = FREE ? 1 : 4;
 const FREE_GAP = 2200;   // мс между запросами, это ~27 запросов в минуту
 
-// Цена Opus 5 за миллион токенов. Держим рядом с кодом, чтобы
-// стоимость прогона была видна сразу, а не в конце месяца в счёте.
-const PRICE = { in: 5, out: 25, cacheWrite: 6.25, cacheRead: 0.5 };
-
-// ── что мы хотим получить ────────────────────────────────────────
-// Схема это не украшение. Без неё модель вернёт абзац текста, который
-// придётся разбирать регулярками, и однажды она напишет его иначе.
-// Со схемой ответ либо соответствует форме, либо запрос падает с ошибкой.
-const Verdict = z.object({
-  state: z.enum(["dead", "abandoned", "dated", "working", "good"])
-    .describe("общее состояние сайта"),
-  need: z.number().int().min(0).max(100)
-    .describe("насколько сайту нужна переделка: 0 не нужна, 100 нужна срочно"),
-  problems: z.array(z.object({
-    what: z.string().describe("проблема одной фразой по-русски"),
-    evidence: z.string().describe("на каком именно факте основано, кратко"),
-    severity: z.enum(["high", "medium", "low"]),
-  })).describe("не больше трёх проблем, самая важная первой"),
-  hook_ru: z.string()
-    .describe("одна фраза по-русски: что сказать владельцу при первом контакте"),
-  pitch_it: z.string()
-    .describe("одно-два предложения по-итальянски для письма, вежливо, без продажи, " +
-              "называет конкретную находку с этого сайта"),
-  worth_contacting: z.boolean()
-    .describe("есть ли смысл писать: false если сайт свежий и хороший"),
-  confidence: z.enum(["low", "medium", "high"])
-    .describe("low если данных мало или они противоречивы"),
-});
-
-// ── чем модель руководствуется ───────────────────────────────────
-// Это главный файл проекта. Всё качество живёт здесь, а не в коде.
-// Правь этот текст, прогоняй eval.mjs, смотри, стало лучше или хуже.
-const SYSTEM = `Ты оцениваешь сайты небольших заведений в итальянской провинции
-под Римом: рестораны, агритуризмо, залы, салоны, магазины. Твой заказчик
-веб-разработчик, он ищет, кому предложить переделку сайта.
-
-Тебе дают факты, собранные автоматически со страницы. Твоя работа
-не пересказать их, а понять, что они значат для владельца.
-
-Как оценивать:
-
-Сначала спроси себя, теряет ли заведение из-за сайта деньги. Отсутствие
-мета viewport значит, что на телефоне страницу надо растягивать пальцами,
-а телефон это большинство посетителей. Меню картинкой или PDF нечитаемо
-на телефоне и невидимо для поиска. Нет ни формы, ни ссылки tel: значит
-гость должен сам переписывать номер. Главная фотография на несколько
-мегабайт означает, что на мобильном интернете страница не откроется.
-
-Свежесть важна меньше, чем кажется. Копирайт 2019 года на сайте, который
-в остальном работает и удобен, это мелочь. А вот копирайт 2019 плюс
-отсутствие адаптива плюс меню картинкой это заброшенный сайт.
-
-Будь честен, когда чинить нечего. Если сайт быстрый, адаптивный, с формой
-и свежий, поставь worth_contacting false и need меньше 30. Разработчику
-полезнее короткий список настоящих кандидатов, чем длинный список,
-где половина выдумана. Выдуманная проблема в письме убивает доверие
-мгновенно, потому что владелец свой сайт видел.
-
-Не делай выводов о том, чего в фактах нет. Ты не видел, как сайт выглядит,
-ты видел только его признаки. Если признаков мало, ставь confidence low
-и не сочиняй.
-
-pitch_it пиши так, как пишет живой человек соседу по городку: вежливо,
-на вы, без рекламных оборотов, без слов вроде moderno, professionale,
-soluzione. Назови находку и что она означает для гостя. Не предлагай
-услуг, это сделает само письмо, твоя задача дать одну точную фразу.
-
-hook_ru это то же самое, но для твоего заказчика, чтобы он понимал,
-что отправляет.`;
-
-// ── факты в читаемый вид ─────────────────────────────────────────
-// Модели проще читать текст, чем сырой JSON, и он вдвое короче.
-// Меньше токенов на запрос это прямая экономия на каждом из 150 сайтов.
-function brief(s) {
-  const L = [];
-  const add = (k, v) => { if (v !== null && v !== undefined && v !== "") L.push(`${k}: ${v}`); };
-  const yn = (b) => (b ? "да" : "нет");
-
-  add("Заведение", s.name + (s.town ? `, ${s.town}` : ""));
-  add("Адрес", s.url);
-  add("Заголовок", s.title);
-  add("Описание", s.description);
-  add("Платформа", s.platform || "своя вёрстка или неизвестно");
-  add("Ответ сервера", `${s.ttfbMs} мс, страница ${s.htmlKb} КБ`);
-  if (s.https === false) add("Защищённое соединение", `нет, ${s.httpsProblem}`);
-  add("Язык страницы", s.lang);
-
-  add("Мета viewport (адаптив под телефон)", yn(s.hasViewport));
-  if (s.fixedWidthPx) add("Жёсткая ширина в пикселях", "да, вёрстка под десктоп");
-  if (s.tableLayout) add("Вёрстка таблицами", "да, приём из 2000-х");
-
-  add("Форма на странице", yn(s.hasForm));
-  add("Ссылка tel:", yn(s.hasTelLink));
-  add("Ссылка mailto:", yn(s.hasMailto));
-  add("WhatsApp", yn(s.hasWhatsapp));
-  add("Слова про бронирование", yn(s.bookingWords));
-
-  add("Меню упомянуто", yn(s.menu?.mentioned));
-  if (s.menu?.asPdf) add("Меню файлом PDF", "да");
-  if (s.menu?.asImage) add("Меню картинкой", "да");
-  add("Часы работы на странице", yn(s.hoursWords));
-  add("Английская версия", yn(s.english));
-
-  add("Картинок на странице", s.counts?.images);
-  if (s.images?.checked)
-    add("Вес картинок", `проверено ${s.images.checked}, самая тяжёлая ${s.images.heaviestKb} КБ`);
-
-  add("Копирайт в подвале", s.copyrightYear || "не указан");
-  add("Самый свежий год на странице", s.newestYearOnPage || "не найден");
-  add("Последнее изменение по заголовку", s.lastModified);
-  if (s.hasFlash) add("Flash", "да, технология умерла в 2020");
-  if (s.jqueryOld) add("jQuery 1.x", "да, версия десятилетней давности");
-
-  add("Соцсети", [s.social?.facebook && "Facebook", s.social?.instagram && "Instagram",
-                  s.social?.tripadvisor && "TripAdvisor"].filter(Boolean).join(", ") || "не найдены");
-  return L.join("\n");
-}
-
-// ── случаи, где модель не нужна ──────────────────────────────────
-// Сайт вернул 404 или домен исчез. Вердикт очевиден, и платить
-// за него нельзя: модель здесь не добавит ни одного слова.
-// Таких у нас 38 из 188, это пятая часть счёта.
-function withoutModel(s) {
-  if (!s.error) return null;
-  if (s.blocked) return {
-    ...s, judged: "правилом",
-    verdict: { state: "working", need: 0, problems: [],
-      hook_ru: "Сайт закрыт от автоматических запросов, открой его руками.",
-      pitch_it: "", worth_contacting: false, confidence: "low" },
-  };
-  const gone = /не существует|не резолвится/.test(s.error);
-  return {
-    ...s, judged: "правилом",
-    verdict: {
-      state: "dead",
-      need: 100,
-      problems: [{ what: gone ? "Домен больше не существует" : "Сайт не открывается",
-                   evidence: s.error, severity: "high" }],
-      hook_ru: gone
-        ? "Их домен исчез: сайта у них фактически нет, хотя ссылка ещё ходит по справочникам."
-        : `Сайт не открывается (${s.error}). Владелец может об этом не знать.`,
-      pitch_it: gone
-        ? `Ho provato a visitare il vostro sito ma il dominio non risulta più attivo: chi vi cerca online non vi trova.`
-        : `Ho provato ad aprire il vostro sito e non si carica. Ve lo segnalo perché forse non ve ne siete accorti.`,
-      worth_contacting: true,
-      confidence: "high",
-    },
-  };
-}
 
 // ── запуск ───────────────────────────────────────────────────────
 if (!existsSync(IN)) {
@@ -286,89 +135,15 @@ if (!HAS_KEY) {
 }
 
 // ── один сайт ────────────────────────────────────────────────────
-const usage = { in: 0, out: 0, cacheWrite: 0, cacheRead: 0 };
+// Сам запрос живёт в ask.mjs: тем же кодом пользуется cascade.mjs,
+// и промпт со схемой у них гарантированно одни и те же.
+const usage = emptyUsage();
+const ask = FREE
+  ? freeAsker({ url: FREE_URL, key: FREE_KEY, model: MODEL, usage })
+  : claudeAsker({ model: MODEL, effort: EFFORT, usage, client });
 
-async function judge(s) {
-  const res = await client.messages.parse({
-    model: MODEL,
-    max_tokens: 8000,
-    thinking: { type: "adaptive" },
-    output_config: { effort: EFFORT, format: zodOutputFormat(Verdict) },
-    // Инструкция одна на все 150 запросов, поэтому кэшируем её:
-    // со второго сайта она стоит в десять раз дешевле.
-    system: [{ type: "text", text: SYSTEM, cache_control: { type: "ephemeral" } }],
-    messages: [{ role: "user", content: brief(s) }],
-  });
-
-  usage.in += res.usage.input_tokens || 0;
-  usage.out += res.usage.output_tokens || 0;
-  usage.cacheWrite += res.usage.cache_creation_input_tokens || 0;
-  usage.cacheRead += res.usage.cache_read_input_tokens || 0;
-
-  if (res.stop_reason === "refusal")
-    throw new Error("модель отказалась отвечать: " + (res.stop_details?.category || "без причины"));
-  if (!res.parsed_output)
-    throw new Error("ответ не разобрался по схеме");
-
-  return { ...s, judged: "моделью", verdict: res.parsed_output };
-}
-
-// ── тот же сайт, но бесплатной моделью ───────────────────────────
-// Схема берётся ровно та же, что уходит в Claude: это и есть смысл
-// прогона. Если ответ не лёг в схему, виноват не провайдер, а схема
-// или промпт, и увидеть это дешевле здесь.
-const JSON_SCHEMA = zodOutputFormat(Verdict).schema;
-
-async function judgeFree(s, second = false) {
-  const res = await fetch(`${FREE_URL}/chat/completions`, {
-    method: "POST",
-    headers: { "content-type": "application/json", authorization: `Bearer ${FREE_KEY}` },
-    body: JSON.stringify({
-      model: MODEL,
-      temperature: 0,
-      messages: [
-        { role: "system", content: SYSTEM },
-        { role: "user", content: brief(s) + (second
-          ? "\n\nПредыдущий ответ не лёг в схему. Верни строго JSON по схеме, без пояснений."
-          : "") },
-      ],
-      response_format: {
-        type: "json_schema",
-        json_schema: { name: "verdict", schema: JSON_SCHEMA, strict: true },
-      },
-    }),
-  });
-
-  if (res.status === 429) {
-    // Лимит бесплатного тарифа. Он же и есть цена вопроса: ждём и повторяем.
-    const wait = Number(res.headers.get("retry-after") || 20);
-    throw Object.assign(new Error(`лимит бесплатного тарифа, подожди ${wait} с`), { retryAfter: wait });
-  }
-  if (!res.ok) throw new Error(`${FREE_URL}: HTTP ${res.status} ${(await res.text()).slice(0, 160)}`);
-
-  const data = await res.json();
-  usage.in += data.usage?.prompt_tokens || 0;
-  usage.out += data.usage?.completion_tokens || 0;
-
-  const raw = data.choices?.[0]?.message?.content;
-  if (!raw) throw new Error("пустой ответ");
-
-  let obj;
-  try { obj = JSON.parse(raw); }
-  catch { if (!second) return judgeFree(s, true); throw new Error("ответ не разобрался как JSON"); }
-
-  // Проверяем той же схемой: бесплатная модель не получает поблажки.
-  const ok = Verdict.safeParse(obj);
-  if (!ok.success) {
-    if (!second) return judgeFree(s, true);
-    throw new Error("ответ не лёг в схему: " + ok.error.issues.map((i) => i.path.join(".")).join(", "));
-  }
-  // Помечаем иначе, чем платный прогон: eval.mjs берёт только "моделью",
-  // поэтому дешёвые вердикты не смогут попасть в замер качества.
-  return { ...s, judged: "бесплатной моделью", verdict: ok.data };
-}
-
-const judgeOne = FREE ? judgeFree : judge;
+const LABEL = FREE ? "бесплатной моделью" : "моделью";
+const judgeOne = async (s) => ({ ...s, judged: LABEL, verdict: await ask(s) });
 
 const results = [...done.values(), ...byRule];
 let n = 0, failed = 0;
@@ -411,8 +186,7 @@ results.sort((a, b) => (b.verdict?.need ?? -1) - (a.verdict?.need ?? -1));
 writeFileSync(OUT, JSON.stringify(results, null, 1));
 
 // ── итог и настоящая цена ────────────────────────────────────────
-const spent = (usage.in * PRICE.in + usage.out * PRICE.out +
-               usage.cacheWrite * PRICE.cacheWrite + usage.cacheRead * PRICE.cacheRead) / 1e6;
+const spent = spentOn(usage);
 const hot = results.filter((r) => r.verdict?.worth_contacting && r.verdict.need >= 60);
 
 console.log(`\n\n📄 ${OUT}: ${results.length} вердиктов${failed ? `, не вышло ${failed}` : ""}`);
