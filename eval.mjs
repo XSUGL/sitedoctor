@@ -40,7 +40,17 @@ if (MAKE) {
   // Берём вперемешку, а не первые по алфавиту: иначе выборка
   // окажется из одних агритуризмо на букву А.
   const pool = judged.filter((r) => r.verdict && r.judged === "моделью");
-  const src = pool.length >= MAKE ? pool : judged.filter((r) => r.verdict);
+  // Запасной путь берёт и вердикты правил, если модельных мало. Но не
+  // вердикты бесплатной модели: она нужна для проверки конвейера, и если
+  // её ответы попадут в эталон, замер будет мерить её, а не Claude.
+  const src = pool.length >= MAKE
+    ? pool
+    : judged.filter((r) => r.verdict && r.judged !== "бесплатной моделью");
+  if (!src.length) {
+    console.error(`\n❌ В ${JUDGED} нечего размечать: там только прогон бесплатной модели.` +
+                  `\n   Эталон строится по настоящим вердиктам: node judge.mjs --limit 30\n`);
+    process.exit(1);
+  }
   const pick = [...src].sort(() => Math.random() - 0.5).slice(0, MAKE)
     .sort((a, b) => a.name.localeCompare(b.name));
 

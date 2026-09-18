@@ -7,27 +7,43 @@
 //   node judge.mjs                # всё, чего ещё нет в judged.json
 //   node judge.mjs --redo         # пересудить заново (после правки промпта)
 //   node judge.mjs --effort low   # дешевле и быстрее, качество замерь сам
+//   node judge.mjs --free --limit 5   # бесплатная модель: проверить конвейер
 //
 // Доступ:  export ANTHROPIC_API_KEY="sk-ant-..."
+// Бесплатно: export FREE_API_KEY="..."   (ключ console.groq.com, карта не нужна)
 // ═══════════════════════════════════════════════════════════════
 
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import Anthropic from "@anthropic-ai/sdk";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
-import { z } from "zod";
+// Именно zod/v4: zodOutputFormat ждёт схемы нового образца,
+// на классическом zod он падает "Cannot read properties of undefined".
+import { z } from "zod/v4";
 
 const args = process.argv.slice(2);
 const has = (n) => args.includes("--" + n);
 const flag = (n, d) => { const i = args.indexOf("--" + n); return i === -1 ? d : args[i + 1]; };
 
-const MODEL = flag("model", "claude-opus-5");
+// --free гоняет тот же конвейер через бесплатный OpenAI-совместимый
+// эндпоинт. Смысл не в качестве, а в том, чтобы проверить сборку промпта,
+// схему и разбор ответа, не потратив ни цента. Результат кладётся в
+// отдельный файл и помечается иначе, чтобы дешёвый прогон никогда
+// не подмешался в замеры качества.
+const FREE = has("free");
+const FREE_URL = process.env.FREE_BASE_URL || "https://api.groq.com/openai/v1";
+const FREE_KEY = process.env.FREE_API_KEY || process.env.GROQ_API_KEY;
+
+const MODEL = flag("model", FREE ? (process.env.FREE_MODEL || "openai/gpt-oss-20b") : "claude-opus-5");
 const EFFORT = flag("effort", "medium");
 const LIMIT = Number(flag("limit", 0));
 const DRY = has("dry");
 const REDO = has("redo");
 const IN = flag("in", "signals.json");
-const OUT = flag("out", "judged.json");
-const PARALLEL = 4;
+const OUT = flag("out", FREE ? "judged-free.json" : "judged.json");
+// Бесплатный тариф Groq: 30 запросов в минуту и 8 тысяч токенов в минуту.
+// В четыре потока мы упрёмся в лимит на втором сайте.
+const PARALLEL = FREE ? 1 : 4;
+const FREE_GAP = 2200;   // мс между запросами, это ~27 запросов в минуту
 
 // Цена Opus 5 за миллион токенов. Держим рядом с кодом, чтобы
 // стоимость прогона была видна сразу, а не в конце месяца в счёте.
@@ -207,13 +223,19 @@ console.log(`Уже разобрано раньше:    ${done.size}`);
 console.log(`Решается правилом:       ${byRule.length}  (моделью не платим)`);
 console.log(`Идёт в модель:           ${batch.length}`);
 
-const HAS_KEY = Boolean(process.env.ANTHROPIC_API_KEY);
-const client = HAS_KEY ? new Anthropic() : null;
+const HAS_KEY = FREE ? Boolean(FREE_KEY) : Boolean(process.env.ANTHROPIC_API_KEY);
+const client = (!FREE && HAS_KEY) ? new Anthropic() : null;
 
 // ── сколько это будет стоить ─────────────────────────────────────
 // Считаем до запуска, а не после. Это единственный способ не узнать
 // цену задним числом, когда деньги уже потрачены.
-if (batch.length) {
+if (batch.length && FREE) {
+  console.log(`\nПровайдер:               ${FREE_URL}`);
+  console.log(`Модель:                  ${MODEL}  (бесплатная)`);
+  console.log(`Цена:                    $0.00. Это проверка конвейера, а не замер качества.`);
+  console.log(`Скорость:                по одному сайту раз в ${(FREE_GAP / 1000).toFixed(1)} с, иначе лимит.`);
+  console.log(`Результат ляжет в:       ${OUT}  (в judged.json не попадёт)`);
+} else if (batch.length) {
   const sample = brief(batch[0]) + SYSTEM;
   let tokens, exact = false;
   if (HAS_KEY) {
@@ -252,7 +274,14 @@ if (!HAS_KEY) {
 
    export ANTHROPIC_API_KEY="sk-ant-..."
 
-   Ключ живёт только в переменной окружения, в файлы он не попадает.\n`);
+   Ключ живёт только в переменной окружения, в файлы он не попадает.
+
+   Проверить конвейер, не платя ничего, можно на бесплатной модели:
+
+   export FREE_API_KEY="..."        # console.groq.com, карта не нужна
+   node judge.mjs --free --limit 5
+
+   Вердикты оттуда лягут в judged-free.json и в замеры качества не пойдут.\n`);
   process.exit(1);
 }
 
@@ -284,6 +313,63 @@ async function judge(s) {
   return { ...s, judged: "моделью", verdict: res.parsed_output };
 }
 
+// ── тот же сайт, но бесплатной моделью ───────────────────────────
+// Схема берётся ровно та же, что уходит в Claude: это и есть смысл
+// прогона. Если ответ не лёг в схему, виноват не провайдер, а схема
+// или промпт, и увидеть это дешевле здесь.
+const JSON_SCHEMA = zodOutputFormat(Verdict).schema;
+
+async function judgeFree(s, second = false) {
+  const res = await fetch(`${FREE_URL}/chat/completions`, {
+    method: "POST",
+    headers: { "content-type": "application/json", authorization: `Bearer ${FREE_KEY}` },
+    body: JSON.stringify({
+      model: MODEL,
+      temperature: 0,
+      messages: [
+        { role: "system", content: SYSTEM },
+        { role: "user", content: brief(s) + (second
+          ? "\n\nПредыдущий ответ не лёг в схему. Верни строго JSON по схеме, без пояснений."
+          : "") },
+      ],
+      response_format: {
+        type: "json_schema",
+        json_schema: { name: "verdict", schema: JSON_SCHEMA, strict: true },
+      },
+    }),
+  });
+
+  if (res.status === 429) {
+    // Лимит бесплатного тарифа. Он же и есть цена вопроса: ждём и повторяем.
+    const wait = Number(res.headers.get("retry-after") || 20);
+    throw Object.assign(new Error(`лимит бесплатного тарифа, подожди ${wait} с`), { retryAfter: wait });
+  }
+  if (!res.ok) throw new Error(`${FREE_URL}: HTTP ${res.status} ${(await res.text()).slice(0, 160)}`);
+
+  const data = await res.json();
+  usage.in += data.usage?.prompt_tokens || 0;
+  usage.out += data.usage?.completion_tokens || 0;
+
+  const raw = data.choices?.[0]?.message?.content;
+  if (!raw) throw new Error("пустой ответ");
+
+  let obj;
+  try { obj = JSON.parse(raw); }
+  catch { if (!second) return judgeFree(s, true); throw new Error("ответ не разобрался как JSON"); }
+
+  // Проверяем той же схемой: бесплатная модель не получает поблажки.
+  const ok = Verdict.safeParse(obj);
+  if (!ok.success) {
+    if (!second) return judgeFree(s, true);
+    throw new Error("ответ не лёг в схему: " + ok.error.issues.map((i) => i.path.join(".")).join(", "));
+  }
+  // Помечаем иначе, чем платный прогон: eval.mjs берёт только "моделью",
+  // поэтому дешёвые вердикты не смогут попасть в замер качества.
+  return { ...s, judged: "бесплатной моделью", verdict: ok.data };
+}
+
+const judgeOne = FREE ? judgeFree : judge;
+
 const results = [...done.values(), ...byRule];
 let n = 0, failed = 0;
 
@@ -291,8 +377,13 @@ async function worker(queue) {
   while (queue.length) {
     const s = queue.shift();
     try {
-      results.push(await judge(s));
+      results.push(await judgeOne(s));
     } catch (e) {
+      if (e.retryAfter) {           // упёрлись в лимит: подождать и вернуть сайт в очередь
+        await new Promise((r) => setTimeout(r, (e.retryAfter + 1) * 1000));
+        queue.unshift(s);
+        continue;
+      }
       failed++;
       // Типизированные ошибки SDK: по ним видно, чинить ключ,
       // ждать лимит или это просто один плохой сайт.
@@ -305,6 +396,7 @@ async function worker(queue) {
     }
     n++;
     process.stdout.write(`\r   ${n}/${batch.length}  ${s.name.slice(0, 42).padEnd(42)}`);
+    if (FREE && queue.length) await new Promise((r) => setTimeout(r, FREE_GAP));
     writeFileSync(OUT, JSON.stringify(results, null, 1));   // после каждого: обрыв не потеряет работу
   }
 }
@@ -324,7 +416,12 @@ const spent = (usage.in * PRICE.in + usage.out * PRICE.out +
 const hot = results.filter((r) => r.verdict?.worth_contacting && r.verdict.need >= 60);
 
 console.log(`\n\n📄 ${OUT}: ${results.length} вердиктов${failed ? `, не вышло ${failed}` : ""}`);
-if (batch.length) {
+if (batch.length && FREE) {
+  console.log(`\n   Потрачено:      $0.00  (${MODEL})`);
+  console.log(`   Вход:           ${usage.in} токенов`);
+  console.log(`   Выход:          ${usage.out} токенов`);
+  console.log(`\n   Это проверка конвейера. Качество меряется только на платном прогоне.`);
+} else if (batch.length) {
   console.log(`\n   Потрачено:      $${spent.toFixed(3)}`);
   console.log(`   Вход:           ${usage.in} токенов`);
   console.log(`   Из кэша:        ${usage.cacheRead} токенов (в десять раз дешевле)`);
