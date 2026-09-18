@@ -103,3 +103,57 @@ export function freeAsker({ url, key, model, usage = emptyUsage() }) {
   ask.usage = usage;
   return ask;
 }
+
+// ── тот же транспорт, но ответ текстом ───────────────────────────
+// Схема нужна не всегда: когда модель пишет страницу, ответ это HTML,
+// и загонять его в JSON значило бы экранировать целый документ.
+
+const unfence = (s) => s.replace(/^\s*```(?:html)?\s*/i, "").replace(/```\s*$/, "").trim();
+
+export function claudeText({ model, effort, system, usage = emptyUsage(), client = new Anthropic() }) {
+  const ask = async (prompt) => {
+    const res = await client.messages.create({
+      model,
+      max_tokens: 16000,
+      thinking: { type: "adaptive" },
+      output_config: { effort },
+      system: [{ type: "text", text: system, cache_control: { type: "ephemeral" } }],
+      messages: [{ role: "user", content: prompt }],
+    });
+    usage.in += res.usage.input_tokens || 0;
+    usage.out += res.usage.output_tokens || 0;
+    usage.cacheWrite += res.usage.cache_creation_input_tokens || 0;
+    usage.cacheRead += res.usage.cache_read_input_tokens || 0;
+    const text = res.content.filter((c) => c.type === "text").map((c) => c.text).join("");
+    if (!text.trim()) throw new Error("модель вернула пустой ответ");
+    return unfence(text);
+  };
+  ask.usage = usage;
+  return ask;
+}
+
+export function freeText({ url, key, model, system, usage = emptyUsage() }) {
+  const ask = async (prompt) => {
+    const res = await fetch(`${url}/chat/completions`, {
+      method: "POST",
+      headers: { "content-type": "application/json", authorization: `Bearer ${key}` },
+      body: JSON.stringify({
+        model, temperature: 0.2, max_tokens: 8000,
+        messages: [{ role: "system", content: system }, { role: "user", content: prompt }],
+      }),
+    });
+    if (res.status === 429) {
+      const wait = Number(res.headers.get("retry-after") || 20);
+      throw Object.assign(new Error(`лимит бесплатного тарифа, подожди ${wait} с`), { retryAfter: wait });
+    }
+    if (!res.ok) throw new Error(`${url}: HTTP ${res.status} ${(await res.text()).slice(0, 160)}`);
+    const data = await res.json();
+    usage.in += data.usage?.prompt_tokens || 0;
+    usage.out += data.usage?.completion_tokens || 0;
+    const text = data.choices?.[0]?.message?.content || "";
+    if (!text.trim()) throw new Error("модель вернула пустой ответ");
+    return unfence(text);
+  };
+  ask.usage = usage;
+  return ask;
+}

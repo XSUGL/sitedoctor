@@ -1,0 +1,4407 @@
+[
+ {
+  "name": "A.S.d. Be First",
+  "town": "",
+  "url": "https://www.palestrabefirst.it",
+  "error": "домен не существует",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Домен больше не существует",
+     "evidence": "домен не существует",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Их домен исчез: сайта у них фактически нет, хотя ссылка ещё ходит по справочникам.",
+   "pitch_it": "Ho provato a visitare il vostro sito ma il dominio non risulta più attivo: chi vi cerca online non vi trova.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Agricola Paolucci",
+  "town": "Anguillara Sabazia",
+  "url": "https://agricolapaolucci.it",
+  "status": 404,
+  "error": "404: страница не отдаётся",
+  "blocked": false,
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Сайт не открывается",
+     "evidence": "404: страница не отдаётся",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Сайт не открывается (404: страница не отдаётся). Владелец может об этом не знать.",
+   "pitch_it": "Ho provato ad aprire il vostro sito e non si carica. Ve lo segnalo perché forse non ve ne siete accorti.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Agriturismo I due Laghi",
+  "town": "Anguillara Sabazia",
+  "url": "https://iduelaghi2018.wixsite.com",
+  "status": 404,
+  "error": "404: страница не отдаётся",
+  "blocked": false,
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Сайт не открывается",
+     "evidence": "404: страница не отдаётся",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Сайт не открывается (404: страница не отдаётся). Владелец может об этом не знать.",
+   "pitch_it": "Ho provato ad aprire il vostro sito e non si carica. Ve lo segnalo perché forse non ve ne siete accorti.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Alpa Motor",
+  "town": "Anguillara Sabazia",
+  "url": "https://www.alpamotor.com",
+  "error": "домен не существует",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Домен больше не существует",
+     "evidence": "домен не существует",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Их домен исчез: сайта у них фактически нет, хотя ссылка ещё ходит по справочникам.",
+   "pitch_it": "Ho provato a visitare il vostro sito ma il dominio non risulta più attivo: chi vi cerca online non vi trova.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "As Pasticceria",
+  "town": "",
+  "url": "https://www.as-pasticceria.it",
+  "error": "домен не существует",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Домен больше не существует",
+     "evidence": "домен не существует",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Их домен исчез: сайта у них фактически нет, хотя ссылка ещё ходит по справочникам.",
+   "pitch_it": "Ho provato a visitare il vostro sito ma il dominio non risulta più attivo: chi vi cerca online non vi trova.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "ASD Anguillara nuoto",
+  "town": "Anguillara Sabazia",
+  "url": "https://anguillaranuoto.jimdofree.com",
+  "status": 404,
+  "error": "404: страница не отдаётся",
+  "blocked": false,
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Сайт не открывается",
+     "evidence": "404: страница не отдаётся",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Сайт не открывается (404: страница не отдаётся). Владелец может об этом не знать.",
+   "pitch_it": "Ho provato ad aprire il vostro sito e non si carica. Ve lo segnalo perché forse non ve ne siete accorti.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Baiai Verde",
+  "town": "Passo Oscuro",
+  "url": "http://www.baiaverde-passoscuro.it",
+  "error": "домен не существует",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Домен больше не существует",
+     "evidence": "домен не существует",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Их домен исчез: сайта у них фактически нет, хотя ссылка ещё ходит по справочникам.",
+   "pitch_it": "Ho provato a visitare il vostro sito ma il dominio non risulta più attivo: chi vi cerca online non vi trova.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Brutal Restaurante",
+  "town": "Bracciano",
+  "url": "https://brutalrestaurante.it",
+  "error": "домен не существует",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Домен больше не существует",
+     "evidence": "домен не существует",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Их домен исчез: сайта у них фактически нет, хотя ссылка ещё ходит по справочникам.",
+   "pitch_it": "Ho provato a visitare il vostro sito ma il dominio non risulta più attivo: chi vi cerca online non vi trova.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Casa Yoga",
+  "town": "Bassano Romano",
+  "url": "https://accoglienzasutribassano.com",
+  "status": 409,
+  "error": "409: страница не отдаётся",
+  "blocked": false,
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Сайт не открывается",
+     "evidence": "409: страница не отдаётся",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Сайт не открывается (409: страница не отдаётся). Владелец может об этом не знать.",
+   "pitch_it": "Ho provato ad aprire il vostro sito e non si carica. Ve lo segnalo perché forse non ve ne siete accorti.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "CasaCucù",
+  "town": "Anguillara Sabazia",
+  "url": "https://www.casacucu.it",
+  "error": "сеть: UND_ERR_CONNECT_TIMEOUT",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Сайт не открывается",
+     "evidence": "сеть: UND_ERR_CONNECT_TIMEOUT",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Сайт не открывается (сеть: UND_ERR_CONNECT_TIMEOUT). Владелец может об этом не знать.",
+   "pitch_it": "Ho provato ad aprire il vostro sito e non si carica. Ve lo segnalo perché forse non ve ne siete accorti.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "​Centro Sportivo Aeronautica Militare",
+  "town": "",
+  "url": "https://www.aeronautica.difesa.it",
+  "error": "сертификату нельзя доверять",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Сайт не открывается",
+     "evidence": "сертификату нельзя доверять",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Сайт не открывается (сертификату нельзя доверять). Владелец может об этом не знать.",
+   "pitch_it": "Ho provato ad aprire il vostro sito e non si carica. Ve lo segnalo perché forse non ve ne siete accorti.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Ci. Di. Service",
+  "town": "",
+  "url": "https://www.ricambiautocidiservice.com",
+  "status": 500,
+  "error": "500: страница не отдаётся",
+  "blocked": false,
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Сайт не открывается",
+     "evidence": "500: страница не отдаётся",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Сайт не открывается (500: страница не отдаётся). Владелец может об этом не знать.",
+   "pitch_it": "Ho provato ad aprire il vostro sito e non si carica. Ve lo segnalo perché forse non ve ne siete accorti.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Club Alpino Italiano - Sottosezione Oriolo Romano",
+  "town": "Oriolo Romano",
+  "url": "https://www.caiviterbo-grupporiolo.it",
+  "status": 404,
+  "error": "404: страница не отдаётся",
+  "blocked": false,
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Сайт не открывается",
+     "evidence": "404: страница не отдаётся",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Сайт не открывается (404: страница не отдаётся). Владелец может об этом не знать.",
+   "pitch_it": "Ho provato ad aprire il vostro sito e non si carica. Ve lo segnalo perché forse non ve ne siete accorti.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Domus Angularia",
+  "town": "Anguillara Sabazia",
+  "url": "https://www.domusangularia.com",
+  "error": "сертификат выписан на другой домен",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Сайт не открывается",
+     "evidence": "сертификат выписан на другой домен",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Сайт не открывается (сертификат выписан на другой домен). Владелец может об этом не знать.",
+   "pitch_it": "Ho provato ad aprire il vostro sito e non si carica. Ve lo segnalo perché forse non ve ne siete accorti.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Edilizia Cucchi",
+  "town": "Manziana",
+  "url": "https://www.ediliziacucchi.it",
+  "error": "домен не существует",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Домен больше не существует",
+     "evidence": "домен не существует",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Их домен исчез: сайта у них фактически нет, хотя ссылка ещё ходит по справочникам.",
+   "pitch_it": "Ho provato a visitare il vostro sito ma il dominio non risulta più attivo: chi vi cerca online non vi trova.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Gioielleria R&S",
+  "town": "Anguillara Sabazia",
+  "url": "https://www.gioielleriars.it",
+  "error": "домен не существует",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Домен больше не существует",
+     "evidence": "домен не существует",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Их домен исчез: сайта у них фактически нет, хотя ссылка ещё ходит по справочникам.",
+   "pitch_it": "Ho provato a visitare il vostro sito ma il dominio non risulta più attivo: chi vi cerca online non vi trova.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Idea verde",
+  "town": "Oriolo Romano",
+  "url": "https://ideaverdeoriolo.it",
+  "error": "домен не существует",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Домен больше не существует",
+     "evidence": "домен не существует",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Их домен исчез: сайта у них фактически нет, хотя ссылка ещё ходит по справочникам.",
+   "pitch_it": "Ho provato a visitare il vostro sito ma il dominio non risulta più attivo: chi vi cerca online non vi trova.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Iriparazioni",
+  "town": "",
+  "url": "https://www.iriparazioni.it",
+  "error": "домен не существует",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Домен больше не существует",
+     "evidence": "домен не существует",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Их домен исчез: сайта у них фактически нет, хотя ссылка ещё ходит по справочникам.",
+   "pitch_it": "Ho provato a visitare il vostro sito ma il dominio non risulta più attivo: chi vi cerca online non vi trova.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Kesp",
+  "town": "Manziana",
+  "url": "https://www.parcocommercialekesp.it",
+  "error": "домен не существует",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Домен больше не существует",
+     "evidence": "домен не существует",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Их домен исчез: сайта у них фактически нет, хотя ссылка ещё ходит по справочникам.",
+   "pitch_it": "Ho provato a visitare il vostro sito ma il dominio non risulta più attivo: chi vi cerca online non vi trova.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "La Fienatora",
+  "town": "Anguillara Sabazia",
+  "url": "http://www.lafienatora.it",
+  "error": "домен не существует",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Домен больше не существует",
+     "evidence": "домен не существует",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Их домен исчез: сайта у них фактически нет, хотя ссылка ещё ходит по справочникам.",
+   "pitch_it": "Ho provato a visitare il vostro sito ma il dominio non risulta più attivo: chi vi cerca online non vi trova.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Museo Archeologico Nazionale",
+  "town": "Civitavecchia",
+  "url": "https://www.polomusealelazio.beniculturali.it",
+  "error": "домен не существует",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Домен больше не существует",
+     "evidence": "домен не существует",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Их домен исчез: сайта у них фактически нет, хотя ссылка ещё ходит по справочникам.",
+   "pitch_it": "Ho provato a visitare il vostro sito ma il dominio non risulta più attivo: chi vi cerca online non vi trova.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Museo civico",
+  "town": "Monte Romano",
+  "url": "https://www.comune.monteromano.vt.it",
+  "error": "сертификат выписан на другой домен",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Сайт не открывается",
+     "evidence": "сертификат выписан на другой домен",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Сайт не открывается (сертификат выписан на другой домен). Владелец может об этом не знать.",
+   "pitch_it": "Ho provato ad aprire il vostro sito e non si carica. Ve lo segnalo perché forse non ve ne siete accorti.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Museo Civiltà Contadina e Cultura Popolare",
+  "town": "Anguillara Sabazia",
+  "url": "http://www.associazioneculturalesabate.it",
+  "error": "домен не существует",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Домен больше не существует",
+     "evidence": "домен не существует",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Их домен исчез: сайта у них фактически нет, хотя ссылка ещё ходит по справочникам.",
+   "pitch_it": "Ho provato a visitare il vostro sito ma il dominio non risulta più attivo: chi vi cerca online non vi trova.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Museo del Mare e della Navigazione Antica",
+  "town": "Santa Severa",
+  "url": "https://www.museosantasevera.org",
+  "error": "сеть: UND_ERR_CONNECT_TIMEOUT",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Сайт не открывается",
+     "evidence": "сеть: UND_ERR_CONNECT_TIMEOUT",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Сайт не открывается (сеть: UND_ERR_CONNECT_TIMEOUT). Владелец может об этом не знать.",
+   "pitch_it": "Ho provato ad aprire il vostro sito e non si carica. Ve lo segnalo perché forse non ve ne siete accorti.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Museo della Tuscia Rupestre",
+  "town": "Barbarano Romano",
+  "url": "https://www.tusciarupestre.eu",
+  "error": "домен не существует",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Домен больше не существует",
+     "evidence": "домен не существует",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Их домен исчез: сайта у них фактически нет, хотя ссылка ещё ходит по справочникам.",
+   "pitch_it": "Ho provato a visitare il vostro sito ma il dominio non risulta più attivo: chi vi cerca online non vi trova.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Norcineria F.lli Orchi",
+  "town": "Tolfa",
+  "url": "https://www.norcineriaorchi.com",
+  "error": "домен не существует",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Домен больше не существует",
+     "evidence": "домен не существует",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Их домен исчез: сайта у них фактически нет, хотя ссылка ещё ходит по справочникам.",
+   "pitch_it": "Ho provato a visitare il vostro sito ma il dominio non risulta più attivo: chi vi cerca online non vi trova.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Pro Cars",
+  "town": "Bracciano",
+  "url": "https://www.pro-cars.it",
+  "error": "домен не существует",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Домен больше не существует",
+     "evidence": "домен не существует",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Их домен исчез: сайта у них фактически нет, хотя ссылка ещё ходит по справочникам.",
+   "pitch_it": "Ho provato a visitare il vostro sito ma il dominio non risulta più attivo: chi vi cerca online non vi trova.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Remigio Di Filippo Auto",
+  "town": "Anguillara Sabazia",
+  "url": "https://www.difilippoauto.it",
+  "status": 404,
+  "error": "404: страница не отдаётся",
+  "blocked": false,
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Сайт не открывается",
+     "evidence": "404: страница не отдаётся",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Сайт не открывается (404: страница не отдаётся). Владелец может об этом не знать.",
+   "pitch_it": "Ho provato ad aprire il vostro sito e non si carica. Ve lo segnalo perché forse non ve ne siete accorti.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Trattoria \"La Rocca\"",
+  "town": "",
+  "url": "http://www.anticoborgoceri.it",
+  "error": "домен не существует",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Домен больше не существует",
+     "evidence": "домен не существует",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Их домен исчез: сайта у них фактически нет, хотя ссылка ещё ходит по справочникам.",
+   "pitch_it": "Ho provato a visitare il vostro sito ma il dominio non risulta più attivo: chi vi cerca online non vi trova.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Villa Sara",
+  "town": "",
+  "url": "https://www.bbvillasaracivitavecchia.it",
+  "error": "домен не существует",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Домен больше не существует",
+     "evidence": "домен не существует",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Их домен исчез: сайта у них фактически нет, хотя ссылка ещё ходит по справочникам.",
+   "pitch_it": "Ho provato a visitare il vostro sito ma il dominio non risulta più attivo: chi vi cerca online non vi trova.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Zea erboristeria",
+  "town": "",
+  "url": "https://www.zeauniverse.com",
+  "error": "сеть: UND_ERR_CONNECT_TIMEOUT",
+  "judged": "правилом",
+  "verdict": {
+   "state": "dead",
+   "need": 100,
+   "problems": [
+    {
+     "what": "Сайт не открывается",
+     "evidence": "сеть: UND_ERR_CONNECT_TIMEOUT",
+     "severity": "high"
+    }
+   ],
+   "hook_ru": "Сайт не открывается (сеть: UND_ERR_CONNECT_TIMEOUT). Владелец может об этом не знать.",
+   "pitch_it": "Ho provato ad aprire il vostro sito e non si carica. Ve lo segnalo perché forse non ve ne siete accorti.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Festina Lente",
+  "town": "Bracciano",
+  "url": "https://www.festinalentebracciano.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 73,
+  "htmlKb": 34,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Festina Lente Palestra, Piscina e Fitness a Bracciano",
+  "description": "La Palestra e Piscina Festina Lente di Bracciano offre corsi e servizi per il benessere ed il miglioramento fisico.",
+  "lang": "it",
+  "counts": {
+   "images": 18,
+   "links": 45,
+   "scripts": 33,
+   "styles": 5
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": true,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": 2019,
+  "hasFlash": false,
+  "jqueryOld": true,
+  "images": {
+   "checked": 6,
+   "totalKb": 1034,
+   "heaviestKb": 425,
+   "heaviestUrl": "https://www.festinalentebracciano.it/img/render-festinalente-grande.jpg"
+  },
+  "error": null,
+  "judged": "бесплатной моделью",
+  "verdict": {
+   "state": "dated",
+   "need": 70,
+   "problems": [
+    {
+     "what": "Фиксированная ширина делает сайт неудобным на мобильных устройствах",
+     "evidence": "Жёсткая ширина в пикселях: да, вёрстка под десктоп",
+     "severity": "high"
+    },
+    {
+     "what": "Крупные изображения замедляют загрузку, особенно на мобильном интернете",
+     "evidence": "Самая тяжёлая картинка 425 КБ",
+     "severity": "medium"
+    },
+    {
+     "what": "Отсутствие формы обратной связи усложняет быстрый контакт с клиентами",
+     "evidence": "Форма на странице: нет",
+     "severity": "low"
+    }
+   ],
+   "hook_ru": "У вас сайт выглядит хорошо, но на мобильных устройствах пользователи вынуждены масштабировать страницу, что может оттолкнуть их от бронирования.",
+   "pitch_it": "Ho notato che il layout è fisso e non si adatta bene ai dispositivi mobili; questo può rendere difficile per i clienti trovare rapidamente le informazioni di contatto.",
+   "worth_contacting": true,
+   "confidence": "medium"
+  }
+ },
+ {
+  "name": "Flamini Auto",
+  "town": "",
+  "url": "https://www.flaminiauto.it/",
+  "redirected": true,
+  "status": 200,
+  "ttfbMs": 892,
+  "htmlKb": 742,
+  "lastModified": null,
+  "platform": "Wix",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Flamini Auto dal 1950 - Auto Nuove e Usate, Bracciano",
+  "description": "Flamini Auto a Bracciano dal 1950 vendita e assistenza, auto nuove, auto usate garantite, finanziamenti, noleggio auto a breve e lungo termine",
+  "lang": "it",
+  "counts": {
+   "images": 41,
+   "links": 49,
+   "scripts": 11,
+   "styles": 0
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": false,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2026,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 49,
+   "heaviestKb": 44,
+   "heaviestUrl": "https://static.wixstatic.com/media/e2248b_caed46bbc3aa4c0f98e4957b29d64a26~mv2.png/v1/fill/w_600,h_131,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Logo-storico-scontornato_edited_edited_p.png"
+  },
+  "error": null,
+  "judged": "бесплатной моделью",
+  "verdict": {
+   "state": "dated",
+   "need": 70,
+   "problems": [
+    {
+     "what": "Отсутствует форма обратной связи",
+     "evidence": "Форма на странице: нет",
+     "severity": "medium"
+    },
+    {
+     "what": "Сайт не адаптивен, фиксированная ширина",
+     "evidence": "Жёсткая ширина в пикселях: да, вёрстка под десктоп",
+     "severity": "medium"
+    },
+    {
+     "what": "Нет прямой ссылки на телефон",
+     "evidence": "Ссылка tel:: нет",
+     "severity": "low"
+    }
+   ],
+   "hook_ru": "У вас нет формы для связи, поэтому потенциальные клиенты вынуждены искать номер вручную, что может оттолкнуть их.",
+   "pitch_it": "Ho notato che il sito non dispone di un modulo di contatto né di un link telefonico, il che può rendere difficile per i visitatori mettersi in contatto rapidamente.",
+   "worth_contacting": true,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Four Friends",
+  "town": "",
+  "url": "http://www.four-friends.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 57,
+  "htmlKb": 10,
+  "lastModified": "Fri, 15 Sep 2023 13:31:21 GMT",
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Four Friends",
+  "description": "The Venue template project",
+  "lang": "en",
+  "counts": {
+   "images": 3,
+   "links": 11,
+   "scripts": 17,
+   "styles": 6
+  },
+  "hasViewport": true,
+  "fixedWidthPx": false,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": false,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": true,
+   "asImage": false,
+   "links": [
+    "http://www.four-friends.it/FF_menuasportopixart.pdf"
+   ]
+  },
+  "hoursWords": false,
+  "english": true,
+  "social": {
+   "facebook": false,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": null,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 3,
+   "totalKb": 735,
+   "heaviestKb": 350,
+   "heaviestUrl": "http://www.four-friends.it/images/intro_2.jpg"
+  },
+  "error": null,
+  "judged": "бесплатной моделью",
+  "verdict": {
+   "state": "dated",
+   "need": 60,
+   "problems": [
+    {
+     "what": "Отсутствует форма обратной связи и телефонный номер, что затрудняет быстрый контакт с клиентами",
+     "evidence": "Форма на странице: нет; Ссылка tel:: нет; Ссылка mailto:: нет",
+     "severity": "high"
+    },
+    {
+     "what": "На сайте не указаны часы работы, что может сбивать с толку посетителей",
+     "evidence": "Часы работы на странице: нет",
+     "severity": "medium"
+    },
+    {
+     "what": "Отсутствуют ссылки на социальные сети, что ограничивает возможности продвижения",
+     "evidence": "Соцсети: не найдены",
+     "severity": "low"
+    }
+   ],
+   "hook_ru": "У вас нет возможности быстро связаться с клиентами, так как на сайте отсутствует форма и телефонный номер.",
+   "pitch_it": "Ho notato che sul vostro sito non è presente un modulo di contatto né un numero di telefono, il che può rendere difficile per i clienti mettersi in contatto con voi.",
+   "worth_contacting": true,
+   "confidence": "medium"
+  }
+ },
+ {
+  "name": "Freestars Immobiliare",
+  "town": "Anguillara Sabazia",
+  "url": "https://www.freestars.it/home.asp?page=180584838100",
+  "redirected": true,
+  "status": 200,
+  "ttfbMs": 324,
+  "htmlKb": 46,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Appartamenti e Ville in vendita nella zona del lago di Bracciano, Roma e Provincia",
+  "description": "FreeStars Agenzie immobiliare Anguillara Sabazia. Professionisti nell",
+  "lang": null,
+  "counts": {
+   "images": 48,
+   "links": 104,
+   "scripts": 1,
+   "styles": 1
+  },
+  "hasViewport": false,
+  "fixedWidthPx": false,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": false,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": false,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2002,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 1,
+   "totalKb": 58,
+   "heaviestKb": 58,
+   "heaviestUrl": "https://www.freestars.it/1.jpg"
+  },
+  "error": null,
+  "judged": "бесплатной моделью",
+  "verdict": {
+   "state": "dated",
+   "need": 40,
+   "problems": [
+    {
+     "what": "страница не адаптивна для мобильных устройств",
+     "evidence": "нет мета viewport",
+     "severity": "high"
+    },
+    {
+     "what": "гостям приходится вручную вводить номер телефона",
+     "evidence": "нет ссылки tel:",
+     "severity": "medium"
+    }
+   ],
+   "hook_ru": "У вас нет мета viewport, поэтому мобильные пользователи вынуждены масштабировать страницу, что снижает конверсию.",
+   "pitch_it": "Ho notato che il sito non ha il meta viewport, quindi su smartphone gli utenti devono ingrandire la pagina, il che può ridurre le prenotazioni.",
+   "worth_contacting": true,
+   "confidence": "medium"
+  }
+ },
+ {
+  "name": "Falegnamerie Design",
+  "town": "",
+  "url": "https://www.falegnameriedesign.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 2147,
+  "htmlKb": 420,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Mobili su misura Roma. VERO LEGNO Cucine, armadi soppalchi e ...",
+  "description": "MOBILI SU MISURA Roma. Rendi la tua casa unica. Visita il negozio dell&#039;ARREDAMENTO SU MISURA e risparmia fino al 50% sui tuoi mobili in Vero Legno.",
+  "lang": "it-IT",
+  "counts": {
+   "images": 86,
+   "links": 273,
+   "scripts": 32,
+   "styles": 15
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": true,
+  "hasMailto": false,
+  "hasWhatsapp": true,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2018,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 12,
+   "heaviestKb": 7,
+   "heaviestUrl": "https://www.falegnameriedesign.it/wp-content/uploads/2019/01/logofalegnamerie.png"
+  },
+  "error": null,
+  "judged": "бесплатной моделью",
+  "verdict": {
+   "state": "good",
+   "need": 10,
+   "problems": [
+    {
+     "what": "Layout con larghezza fissa, non ottimizzato per tutti i dispositivi mobili",
+     "evidence": "Жёсткая ширина в пикселях: да, вёрстка под десктоп",
+     "severity": "medium"
+    },
+    {
+     "what": "Mancanza di link mailto, il che rende più difficile per i clienti inviare email",
+     "evidence": "Ссылка mailto:: нет",
+     "severity": "low"
+    }
+   ],
+   "hook_ru": "У вас отличный сайт, но небольшие улучшения могут сделать его ещё удобнее для клиентов.",
+   "pitch_it": "Ho notato che il layout è fisso in larghezza, il che potrebbe non adattarsi perfettamente ai dispositivi mobili. Inoltre, manca un link mailto per facilitare la comunicazione via email.",
+   "worth_contacting": false,
+   "confidence": "high"
+  }
+ },
+ {
+  "name": "Agriturismo La Farnesiana",
+  "town": "",
+  "url": "https://www.farnesiana.it",
+  "status": 403,
+  "error": "403: сайт закрыт от автоматических запросов, смотреть руками",
+  "blocked": true,
+  "judged": "правилом",
+  "verdict": {
+   "state": "working",
+   "need": 0,
+   "problems": [],
+   "hook_ru": "Сайт закрыт от автоматических запросов, открой его руками.",
+   "pitch_it": "",
+   "worth_contacting": false,
+   "confidence": "low"
+  }
+ },
+ {
+  "name": "Agrolago Ristorante Pizzeria",
+  "town": "Trevignano Romano",
+  "url": "https://ristoranteagrolago.it",
+  "status": 403,
+  "error": "403: сайт закрыт от автоматических запросов, смотреть руками",
+  "blocked": true,
+  "judged": "правилом",
+  "verdict": {
+   "state": "working",
+   "need": 0,
+   "problems": [],
+   "hook_ru": "Сайт закрыт от автоматических запросов, открой его руками.",
+   "pitch_it": "",
+   "worth_contacting": false,
+   "confidence": "low"
+  }
+ },
+ {
+  "name": "AVIS",
+  "town": "Oriolo Romano",
+  "url": "https://www.avis.it",
+  "status": 403,
+  "error": "403: сайт закрыт от автоматических запросов, смотреть руками",
+  "blocked": true,
+  "judged": "правилом",
+  "verdict": {
+   "state": "working",
+   "need": 0,
+   "problems": [],
+   "hook_ru": "Сайт закрыт от автоматических запросов, открой его руками.",
+   "pitch_it": "",
+   "worth_contacting": false,
+   "confidence": "low"
+  }
+ },
+ {
+  "name": "Croce Rossa Italiana - Comitato locale sabatino",
+  "town": "Anguillara Sabazia",
+  "url": "https://crisabatino.it",
+  "status": 403,
+  "error": "403: сайт закрыт от автоматических запросов, смотреть руками",
+  "blocked": true,
+  "judged": "правилом",
+  "verdict": {
+   "state": "working",
+   "need": 0,
+   "problems": [],
+   "hook_ru": "Сайт закрыт от автоматических запросов, открой его руками.",
+   "pitch_it": "",
+   "worth_contacting": false,
+   "confidence": "low"
+  }
+ },
+ {
+  "name": "La Masseria",
+  "town": "Tragliatella",
+  "url": "https://www.agriturismolamasseria.eu",
+  "status": 403,
+  "error": "403: сайт закрыт от автоматических запросов, смотреть руками",
+  "blocked": true,
+  "judged": "правилом",
+  "verdict": {
+   "state": "working",
+   "need": 0,
+   "problems": [],
+   "hook_ru": "Сайт закрыт от автоматических запросов, открой его руками.",
+   "pitch_it": "",
+   "worth_contacting": false,
+   "confidence": "low"
+  }
+ },
+ {
+  "name": "Ottica Cardei",
+  "town": "",
+  "url": "https://www.otticacardei.com",
+  "status": 403,
+  "error": "403: сайт закрыт от автоматических запросов, смотреть руками",
+  "blocked": true,
+  "judged": "правилом",
+  "verdict": {
+   "state": "working",
+   "need": 0,
+   "problems": [],
+   "hook_ru": "Сайт закрыт от автоматических запросов, открой его руками.",
+   "pitch_it": "",
+   "worth_contacting": false,
+   "confidence": "low"
+  }
+ },
+ {
+  "name": "Accademia Pugilistica David Tobini",
+  "town": "Bracciano",
+  "url": "http://www.accademiapugilisticadavidtobini.it/modulo/home/",
+  "redirected": true,
+  "status": 200,
+  "ttfbMs": 397,
+  "htmlKb": 19,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Accademia Pugilistica David Tobini - ASD Pugilato, boxe, ring, Bracciano",
+  "description": null,
+  "lang": "en",
+  "counts": {
+   "images": 14,
+   "links": 31,
+   "scripts": 8,
+   "styles": 6
+  },
+  "hasViewport": true,
+  "fixedWidthPx": false,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": false,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": true,
+  "images": {
+   "checked": 6,
+   "totalKb": 505,
+   "heaviestKb": 132,
+   "heaviestUrl": "http://www.accademiapugilisticadavidtobini.it/modulo/slide/img/slide_3.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Acropoli Servizi Immobiliari",
+  "town": "Anguillara Sabazia",
+  "url": "https://www.acropoli.org/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 95,
+  "htmlKb": 27,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Acropoli S.r.l.",
+  "description": "Agenzia immobiliare",
+  "lang": "it",
+  "counts": {
+   "images": 23,
+   "links": 49,
+   "scripts": 5,
+   "styles": 0
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": false,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": false,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 31,
+   "heaviestKb": 8,
+   "heaviestUrl": "https://www.acropoli.org/img/home/anni-di-esperienza.png"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "ADO immobiliare",
+  "town": "",
+  "url": "https://www.adoimmobiliare.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 116,
+  "htmlKb": 166,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Agenzia ADOImmobiliare",
+  "description": null,
+  "lang": "it-IT",
+  "counts": {
+   "images": 19,
+   "links": 62,
+   "scripts": 40,
+   "styles": 21
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": true,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": false,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2026,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 716,
+   "heaviestKb": 170,
+   "heaviestUrl": "https://www.adoimmobiliare.it/wp-content/uploads/2022/02/ado-immobiliare-anguillara-e1644971194772.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Agriturismo  Monte la Puglia",
+  "town": "Bracciano",
+  "url": "https://www.montelapuglia.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 2271,
+  "htmlKb": 147,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Home - Agriturismo Monte la Puglia",
+  "description": "Goditi la tranquillità, il paesaggio, la cucina con i suoi prodotti biologici, la fattoria, il centro ippico e il comfort delle nostre camere",
+  "lang": "it-IT",
+  "counts": {
+   "images": 5,
+   "links": 58,
+   "scripts": 6,
+   "styles": 1
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": true,
+  "hasMailto": true,
+  "hasWhatsapp": true,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": false,
+   "tripadvisor": true
+  },
+  "copyrightYear": 2023,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 5,
+   "totalKb": 1362,
+   "heaviestKb": 737,
+   "heaviestUrl": "https://www.montelapuglia.it/wp-content/uploads/2023/08/agriturismo-monte-la-puglia-32-scaled.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Agriturismo Casale dell'Asco",
+  "town": "",
+  "url": "https://casaledellasco.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 2201,
+  "htmlKb": 72,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Casale dell&#039;Asco &#8211; Agriturismo a Tarquinia, in località Farnesiana",
+  "description": "Benvenuti al Casale Dell’Asco \r\nIl Casale dell’Asco è un agriturismo che si trova in Località Farnesiana, nel comune di Tarquinia (Viterbo).\r\nL’agriturismo, situato nella campagna tarquiniese e vicino al porto di Civitavecchia (Roma), è immerso in quella parte di Maremma che dal Lazio si protrae ver",
+  "lang": "it-IT",
+  "counts": {
+   "images": 6,
+   "links": 25,
+   "scripts": 8,
+   "styles": 3
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": false,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": false,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2014,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 1654,
+   "heaviestKb": 618,
+   "heaviestUrl": "https://casaledellasco.it/wordpress/wp-content/uploads/2015/07/64.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Agriturismo L. B Stud",
+  "town": "Bracciano",
+  "url": "https://www.agriturismolbstud.com/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 107,
+  "htmlKb": 29,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Agriturismo LB Stud - Relax nella campagna di Bracciano",
+  "description": "Agriturismo LB Stud: relax nella campagna di Bracciano, a pochi passi da Roma. Camere e appartamenti accoglienti per il tuo soggiorno",
+  "lang": "it",
+  "counts": {
+   "images": 12,
+   "links": 48,
+   "scripts": 4,
+   "styles": 1
+  },
+  "hasViewport": true,
+  "fixedWidthPx": false,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": true,
+  "hasMailto": false,
+  "hasWhatsapp": true,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": false,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": true
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": null,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 550,
+   "heaviestKb": 222,
+   "heaviestUrl": "https://www.agriturismolbstud.com/img/territorio-bracciano.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Agriturismo Le Due Querce",
+  "town": "Tarquinia",
+  "url": "https://www.leduequerceagriturismo.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 89,
+  "htmlKb": 111,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Le Due Querce Agriturismo",
+  "description": "Il tuo soggiorno immerso nel verde tra lavanda, mandorli, natura e simpatici animali a due passi dal centro storico di Tarquinia. Uno spazio dove riposare, rallentare, respirare e sentirti a casa.",
+  "lang": "it-IT",
+  "counts": {
+   "images": 5,
+   "links": 28,
+   "scripts": 4,
+   "styles": 11
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": true,
+  "hasMailto": true,
+  "hasWhatsapp": true,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2026,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 5,
+   "totalKb": 1465,
+   "heaviestKb": 464,
+   "heaviestUrl": "https://www.leduequerceagriturismo.it/wp-content/uploads/2026/06/airbnb.png"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Agriturismo San Matteo",
+  "town": "Tarquinia",
+  "url": "https://www.agriturismosanmatteo.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 113,
+  "htmlKb": 96,
+  "lastModified": "Wed, 31 Jan 2024 14:04:38 GMT",
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Home",
+  "description": "Agriturismo San Matteo - Vacanze e Tempo Libero a Tarquinia",
+  "lang": "en-US",
+  "counts": {
+   "images": 183,
+   "links": 13,
+   "scripts": 3,
+   "styles": 3
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": false,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": false,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": true
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": 2017,
+  "hasFlash": false,
+  "jqueryOld": true,
+  "images": {
+   "checked": 6,
+   "totalKb": 0,
+   "heaviestKb": 0,
+   "heaviestUrl": "https://www.agriturismosanmatteo.it/images/blank.gif?crc=4208392903"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Albergo Ristorante \"Villa Maria\"",
+  "town": "Bracciano",
+  "url": "https://villamariadaenzo.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 177,
+  "htmlKb": 222,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Hotel economico con piscina panoramica a Bracciano",
+  "description": "Albergo economico con piscina a Bracciano. Camere climatizzate vista lago e vista castello, con bagno interno. Solo pernotto o anche pensione completa",
+  "lang": "it-IT",
+  "counts": {
+   "images": 5,
+   "links": 28,
+   "scripts": 20,
+   "styles": 6
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": false,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": false,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2020,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 5,
+   "totalKb": 662,
+   "heaviestKb": 308,
+   "heaviestUrl": "https://villamariadaenzo.it/wp-content/uploads/2019/07/villa-maria-piscina.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Alle Scalette",
+  "town": "",
+  "url": "https://www.allescalette.com/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 192,
+  "htmlKb": 124,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Homepage",
+  "description": null,
+  "lang": "it-IT",
+  "counts": {
+   "images": 28,
+   "links": 44,
+   "scripts": 23,
+   "styles": 6
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": true,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": false,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2026,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 85,
+   "heaviestKb": 21,
+   "heaviestUrl": "https://www.allescalette.com/wp-content/uploads/2025/02/logo-oriz-clear.png"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Antincendio Laziale",
+  "town": "Bracciano",
+  "url": "https://www.antincendiolaziale.com/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 69,
+  "htmlKb": 13,
+  "lastModified": "Fri, 18 Sep 2015 07:21:01 GMT",
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Home - www.antincendiolaziale.com",
+  "description": "Antincendio Laziale S.r.l. opera nei settori antincendio con esperienza ventennale.\nSvolge attività di manutenzione e fornitura di materiali antincendio, garantendo qualità e regolarità del servizio.",
+  "lang": "it-IT",
+  "counts": {
+   "images": 1,
+   "links": 4,
+   "scripts": 6,
+   "styles": 1
+  },
+  "hasViewport": false,
+  "fixedWidthPx": false,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": false,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": false,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": false,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2014,
+  "newestYearOnPage": 2014,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 1,
+   "totalKb": 23,
+   "heaviestKb": 23,
+   "heaviestUrl": "https://www.antincendiolaziale.com/attachments/Image/logo_antincendio_1.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Athena Sporting Club",
+  "town": "Bracciano",
+  "url": "https://athenasporting.com/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 1745,
+  "htmlKb": 357,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Home - Athena Sporting Club SSD",
+  "description": "BENVENUTI NEL SITO WEB ATHENA SPORTING CLUB BRACCIANO",
+  "lang": "it-IT",
+  "counts": {
+   "images": 6,
+   "links": 101,
+   "scripts": 23,
+   "styles": 5
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": false,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2015,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 375,
+   "heaviestKb": 111,
+   "heaviestUrl": "https://athenasporting.com/wp-content/uploads/2017/11/post_12.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Azienda Zootecnica Gennargentu",
+  "town": "Anguillara Sabazia",
+  "url": "https://www.gennargentuformaggi.com/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 1600,
+  "htmlKb": 151,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Gennargentu Formaggi",
+  "description": null,
+  "lang": "it-IT",
+  "counts": {
+   "images": 30,
+   "links": 133,
+   "scripts": 23,
+   "styles": 26
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": false,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": false,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": 2021,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 354,
+   "heaviestKb": 287,
+   "heaviestUrl": "https://sviluppo.tresrl.it/gennargentuformaggi/wp-content/uploads/2020/12/IMG_2109.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "B&B Michelangelo",
+  "town": "",
+  "url": "https://michelangeloapartment.com/",
+  "redirected": true,
+  "status": 200,
+  "ttfbMs": 513,
+  "htmlKb": 140,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Casa Vacanza a Civitavecchia – Michelangelo Apartment",
+  "description": "Appartamento confortevole vicino al porto e alla stazione di Civitavecchia. Cucina attrezzata, self check-in e navetta per il terminal crociere. Pet-friendly.",
+  "lang": "it-IT",
+  "counts": {
+   "images": 9,
+   "links": 34,
+   "scripts": 6,
+   "styles": 2
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": false,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": false,
+   "tripadvisor": true
+  },
+  "copyrightYear": 2025,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 1,
+   "totalKb": 51,
+   "heaviestKb": 51,
+   "heaviestUrl": "https://michelangeloapartment.com/wp-content/uploads/2025/02/400dpiLogo-scaled.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Bel Sole",
+  "town": "Civitavecchia",
+  "url": "https://belsole.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 124,
+  "htmlKb": 166,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Home - Bel Sole - Bed &amp; Breakfast a Civitavecchia",
+  "description": null,
+  "lang": "it-IT",
+  "counts": {
+   "images": 21,
+   "links": 40,
+   "scripts": 9,
+   "styles": 8
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": true,
+  "hasMailto": true,
+  "hasWhatsapp": true,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 2,
+   "totalKb": 42,
+   "heaviestKb": 21,
+   "heaviestUrl": "https://belsole.it/wp-content/uploads/2023/07/cropped-LogoBelsoleRosso2-1-264x111.png"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Biblioteca comunale",
+  "town": "Allumiere",
+  "url": "https://www.comune.allumiere.rm.it/it",
+  "redirected": true,
+  "status": 200,
+  "ttfbMs": 724,
+  "htmlKb": 100,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Comune di Allumiere",
+  "description": "Sito ufficiale Comune di Allumiere",
+  "lang": "it",
+  "counts": {
+   "images": 9,
+   "links": 103,
+   "scripts": 5,
+   "styles": 3
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": true,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": [
+    "https://www.comune.allumiere.rm.it/it/menu/amministrazione",
+    "https://www.comune.allumiere.rm.it/it/menu/news",
+    "https://www.comune.allumiere.rm.it/it/menu/servizi"
+   ]
+  },
+  "hoursWords": false,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2026,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 2646,
+   "heaviestKb": 2275,
+   "heaviestUrl": "https://allumiere-api.municipiumapp.it/s3/171/media/00000tf1.png"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Bricofer",
+  "town": "",
+  "url": "https://www.bricofer.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 231,
+  "htmlKb": 84,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Bricofer.it - Bricolage, Casa e Giardino",
+  "description": "Bricofer è qualità e convenienza con più di 20.000 prodotti per il Fai da Te, la Casa e il Giardino. Scopri le nostre offerte! Acquista online anche a rate, con spedizione veloce e reso 30gg gratuito.",
+  "lang": "it",
+  "counts": {
+   "images": 59,
+   "links": 97,
+   "scripts": 10,
+   "styles": 5
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": true,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2026,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 4,
+   "totalKb": 775,
+   "heaviestKb": 630,
+   "heaviestUrl": "https://www.bricofer.it/media/imageobserver/Slidehome_824x1602.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Brocco legnami",
+  "town": "",
+  "url": "https://www.broccolegnami.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 106,
+  "htmlKb": 174,
+  "lastModified": "Mon, 25 Oct 2021 10:31:50 GMT",
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": null,
+  "description": null,
+  "lang": "it-IT",
+  "counts": {
+   "images": 18,
+   "links": 48,
+   "scripts": 34,
+   "styles": 21
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": false,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": false,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2021,
+  "newestYearOnPage": 2021,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 367,
+   "heaviestKb": 143,
+   "heaviestUrl": "https://www.broccolegnami.it/wp-content/uploads/2021/09/380-2.jpg?is-pending-load=1"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "C.S. Ricambi",
+  "town": "Osteria Nuova",
+  "url": "https://www.csricambi.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 332,
+  "htmlKb": 128,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "CS RICAMBI Srl",
+  "description": "Negozio powered by PrestaShop",
+  "lang": "it",
+  "counts": {
+   "images": 22,
+   "links": 99,
+   "scripts": 3,
+   "styles": 2
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": true,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": false,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": null,
+  "hasFlash": false,
+  "jqueryOld": true,
+  "images": {
+   "checked": 5,
+   "totalKb": 188,
+   "heaviestKb": 102,
+   "heaviestUrl": "https://www.csricambi.it/img/cms/trattori-cs.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "C&C Services CAF Bracciano",
+  "town": "Bracciano",
+  "url": "https://www.cafbracciano.com/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 313,
+  "htmlKb": 93,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "C&amp;C SERVICES SRL &#8211; CAF BRACCIANO &#8211; Assistenza Fiscale &#8211; Lavoro &#8211; Condomini &#8211; Colf &amp; Badanti &#8211; Contratti di locazioni &#8211; Successioni &#8211; Centro Elab",
+  "description": null,
+  "lang": "it-IT",
+  "counts": {
+   "images": 17,
+   "links": 128,
+   "scripts": 7,
+   "styles": 5
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": false,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": false,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 679,
+   "heaviestKb": 394,
+   "heaviestUrl": "https://www.cafbracciano.com/wp-content/uploads/2019/12/freegreetingscardsdownload2-1024x576.png"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "CAF ACLI",
+  "town": "Oriolo Romano",
+  "url": "https://www.acliviterbo.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 439,
+  "htmlKb": 58,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Le Acli di Viterbo e provincia | Associazioni Cristiane Lavoratori Italiani | Home",
+  "description": "Le Acli di Viterbo al servizio del cittadino. Servizi per assistenza fiscale e consulenza per ogni esigenza contributiva e previdenziale",
+  "lang": "it-IT",
+  "counts": {
+   "images": 40,
+   "links": 94,
+   "scripts": 16,
+   "styles": 9
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": true,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2026,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 10,
+   "heaviestKb": 4,
+   "heaviestUrl": "https://www.acliviterbo.it/wp-content/themes/acliviterbo-child/images/logo.svg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "CAF UIL",
+  "town": "Anguillara Sabazia",
+  "url": "https://www.cafuilromaelazio.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 111,
+  "htmlKb": 208,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "CAF UIL di Roma Frosinone Viterbo Rieti e Province",
+  "description": "Il CAF corrispondente UIL del Lazio ti offre assistenza fiscale a 360°. 730, ISEE, IMU/TASI, ma anche successioni, contratti colf/badanti, locazioni, ecc.",
+  "lang": "it-IT",
+  "counts": {
+   "images": 39,
+   "links": 152,
+   "scripts": 80,
+   "styles": 6
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": false,
+  "hasMailto": true,
+  "hasWhatsapp": true,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 1391,
+   "heaviestKb": 535,
+   "heaviestUrl": "https://www.cafuilromaelazio.it/wp-content/uploads/2026/08/le-nostre-sedi-riaprono-ti-aspettiamo-al-caf-uil.png"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Camere del Re",
+  "town": "Tarquinia",
+  "url": "https://www.cameredelre.com/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 714,
+  "htmlKb": 39,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "CAMERE DEL RE - Centro Storico Hotel e B&amp;B (Tarquinia)",
+  "description": "CAMERE DEL RE - Centro Storico Guesthouse e B&amp;B Tarquinia è il luogo ideale per Soggiorni di Relax, di Business o in famiglia nella TARQUINIA Rinascimentale.",
+  "lang": "it-IT",
+  "counts": {
+   "images": 11,
+   "links": 42,
+   "scripts": 17,
+   "styles": 8
+  },
+  "hasViewport": true,
+  "fixedWidthPx": false,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": false,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2020,
+  "newestYearOnPage": 2025,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 2025,
+   "heaviestKb": 1041,
+   "heaviestUrl": "https://www.cameredelre.com/wp-content/uploads/2015/07/restauro_cavalli_alati_3.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Camping Azzurro",
+  "town": "",
+  "url": "https://www.campingazzurro.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 214,
+  "htmlKb": 742,
+  "lastModified": null,
+  "platform": "Wix",
+  "https": true,
+  "httpsProblem": null,
+  "title": "AZZURRO CAMPING VILLAGE **** | Rome | Bracciano, RM, Italia",
+  "description": "AZZURRO CAMPING VILLAGE **** si trova sul Lago di Bracciano a pochi km da Roma. Spiaggia privata, bar, ristorante/pizzeria, minimarket. Affitto alloggi.\nAZZURRO CAMPING VILLAGE **** is  situated on Lake Bracciano, few kms from Rome. Private beach, bar, restaurant/pizzeria, minimarket. Lodge rental.",
+  "lang": "it",
+  "counts": {
+   "images": 14,
+   "links": 19,
+   "scripts": 11,
+   "styles": 0
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": false,
+  "hasMailto": true,
+  "hasWhatsapp": true,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": false,
+   "tripadvisor": true
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 125,
+   "heaviestKb": 73,
+   "heaviestUrl": "https://static.wixstatic.com/media/27c2f0_d2e1c53b273b4a48b8e92f7c7f9f324b~mv2.jpg/v1/fill/w_1519,h_149,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/27c2f0_d2e1c53b273b4a48b8e92f7c7f9f324b~mv2.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Camping Gotha Beach",
+  "town": "Ladispoli",
+  "url": "https://gothabeach.it/",
+  "redirected": true,
+  "status": 200,
+  "ttfbMs": 913,
+  "htmlKb": 251,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Gotha Beach | Stabilimento balneare &amp; campeggio a Ladispoli",
+  "description": "Gotha Beach: stabilimento balneare con spiaggia attrezzata, ristorante-pizzeria, eventi e campeggio vicino a Torre Flavia. Prenota online.",
+  "lang": "it-IT",
+  "counts": {
+   "images": 14,
+   "links": 110,
+   "scripts": 30,
+   "styles": 39
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": true,
+  "hasMailto": false,
+  "hasWhatsapp": true,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": [
+    "https://menusocial.net/gothabeach",
+    "https://menusocial.net/gothabeach"
+   ]
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": false,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2025,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 801,
+   "heaviestKb": 252,
+   "heaviestUrl": "https://gothabeach.it/wp-content/uploads/2026/06/DJI_20260501143419_0026_D-1-1-1-2-1-683x1024.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Camping Internazionale",
+  "town": "Trevignano Romano",
+  "url": "https://www.campingvillagebracciano.com/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 761,
+  "htmlKb": 503,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "International Glamping Lago di Bracciano, Campeggi Bracciano, Camping",
+  "description": "L",
+  "lang": "it",
+  "counts": {
+   "images": 27,
+   "links": 71,
+   "scripts": 6,
+   "styles": 0
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": true,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2024,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 5,
+   "totalKb": 17,
+   "heaviestKb": 14,
+   "heaviestUrl": "https://www.campingvillagebracciano.com/source/logo-orizzontale.png?v=1784541811"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Camping Porticciolo",
+  "town": "Bracciano",
+  "url": "https://www.porticciolo.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 91,
+  "htmlKb": 95,
+  "lastModified": "Tue, 16 Jun 2026 13:37:51 GMT",
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Camping Porticciolo",
+  "description": null,
+  "lang": "en",
+  "counts": {
+   "images": 29,
+   "links": 106,
+   "scripts": 21,
+   "styles": 21
+  },
+  "hasViewport": true,
+  "fixedWidthPx": false,
+  "tableLayout": true,
+  "hasForm": true,
+  "hasTelLink": true,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": true,
+  "images": {
+   "checked": 6,
+   "totalKb": 981,
+   "heaviestKb": 649,
+   "heaviestUrl": "https://www.porticciolo.it/img/works/dutchyland-cropped-2.png"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Cantina Castello di Torre in Pietra",
+  "town": "",
+  "url": "https://castelloditorreinpietra.com/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 1844,
+  "htmlKb": 55,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Cantina Castello di Torre in Pietra - Cantina Castello di Torre in Pietra",
+  "description": null,
+  "lang": "it-IT",
+  "counts": {
+   "images": 30,
+   "links": 53,
+   "scripts": 19,
+   "styles": 10
+  },
+  "hasViewport": true,
+  "fixedWidthPx": false,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": true,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2022,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 660,
+   "heaviestKb": 387,
+   "heaviestUrl": "https://castelloditorreinpietra.com/wp-content/uploads/2019/06/Home-Castello-1_3-2-1920x715.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Cardei",
+  "town": "Bracciano",
+  "url": "https://studiocardei.it/",
+  "redirected": true,
+  "status": 200,
+  "ttfbMs": 3879,
+  "htmlKb": 71,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "CARDEI",
+  "description": null,
+  "lang": "it-IT",
+  "counts": {
+   "images": 22,
+   "links": 48,
+   "scripts": 33,
+   "styles": 25
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": false,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": 2025,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 987,
+   "heaviestKb": 369,
+   "heaviestUrl": "https://studiocardei.it/wp-content/uploads/2024/07/New_Born-21.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Casa del Parco",
+  "town": "Trevignano Romano",
+  "url": "https://www.parcobracciano.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 715,
+  "htmlKb": 151,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Parco di Bracciano | Parco Regionale Naturale di Bracciano - Martignano",
+  "description": null,
+  "lang": null,
+  "counts": {
+   "images": 48,
+   "links": 245,
+   "scripts": 19,
+   "styles": 1
+  },
+  "hasViewport": true,
+  "fixedWidthPx": false,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": true,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 41,
+   "heaviestKb": 30,
+   "heaviestUrl": "https://www.parcobracciano.it/Content/img/loghi/logo.png"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Casabella",
+  "town": "",
+  "url": "https://www.casabellagroup.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 282,
+  "htmlKb": 40,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Articoli per la famiglia - Casabella Group",
+  "description": "Articoli per la casa e la famiglia al miglior prezzo.",
+  "lang": "it",
+  "counts": {
+   "images": 23,
+   "links": 63,
+   "scripts": 11,
+   "styles": 7
+  },
+  "hasViewport": true,
+  "fixedWidthPx": false,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": true,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": false,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 1973,
+   "heaviestKb": 734,
+   "heaviestUrl": "https://www.casabellagroup.it/fotoHome/casabella2.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Casale dell'Acqua Bianca",
+  "town": "",
+  "url": "https://www.casaledellacquabianca.com/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 1985,
+  "htmlKb": 26,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Casale dell&#039;Acqua Bianca &#8211; Tolfa",
+  "description": null,
+  "lang": "it-IT",
+  "counts": {
+   "images": 16,
+   "links": 26,
+   "scripts": 20,
+   "styles": 15
+  },
+  "hasViewport": true,
+  "fixedWidthPx": false,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": false,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": [
+    "https://www.casaledellacquabianca.com/i-nostri-piatti/",
+    "https://www.casaledellacquabianca.com/i-nostri-piatti/",
+    "https://www.casaledellacquabianca.com/i-nostri-piatti/"
+   ]
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": false,
+   "tripadvisor": true
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": 2015,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 5,
+   "totalKb": 313,
+   "heaviestKb": 133,
+   "heaviestUrl": "https://www.casaledellacquabianca.com/wp-content/uploads/2015/08/test003b.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Casali Santa Brigida",
+  "town": "Roma",
+  "url": "https://www.casalisbrigida.com/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 793,
+  "htmlKb": 40,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Casali Santa Brigida | Roma | Bracciano | Sito Ufficiale",
+  "description": "Casali Santa Brigida è un antico casale, ristrutturato in chiave moderna e adibito a location per eventi immerso nella verde campagna romana.",
+  "lang": "it-IT",
+  "counts": {
+   "images": 21,
+   "links": 48,
+   "scripts": 20,
+   "styles": 2
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": true,
+  "hasMailto": true,
+  "hasWhatsapp": true,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2004,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": true,
+  "images": {
+   "checked": 6,
+   "totalKb": 400,
+   "heaviestKb": 115,
+   "heaviestUrl": "https://www.casalisbrigida.com/data/1024/-ED-95421.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Cave di basalto S.r.l.",
+  "town": "Anguillara Sabazia",
+  "url": "https://com.cavedibasalto.com/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 117,
+  "htmlKb": 8,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Home Page - com",
+  "description": null,
+  "lang": "it",
+  "counts": {
+   "images": 0,
+   "links": 0,
+   "scripts": 5,
+   "styles": 1
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": false,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": false,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": false,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": null,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 0,
+   "totalKb": 0,
+   "heaviestKb": 0,
+   "heaviestUrl": null
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "CEMEA",
+  "town": "Oriolo Romano",
+  "url": "https://www.cemealazio.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 568,
+  "htmlKb": 64,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Cemea del Lazio APS &#8211; Cemea del Lazio APS",
+  "description": null,
+  "lang": "it-IT",
+  "counts": {
+   "images": 9,
+   "links": 25,
+   "scripts": 27,
+   "styles": 25
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": false,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 460,
+   "heaviestKb": 317,
+   "heaviestUrl": "https://www.cemealazio.it/wp-content/uploads/2020/06/1-1.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Cemenbloc",
+  "town": "Osteria Nuova",
+  "url": "https://www.cemenbloc.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 1966,
+  "htmlKb": 511,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Cemenbloc S.r.l. - produzione di manufatti in cemento",
+  "description": "Cemenbloc S.R.L - è specializzata nella produzione di blocchi cemento lapillo, masselli per pavimentazione autobloccanti e lastroni, cigli stradali, ringhiere e pannelli in cemento, pali per recinzione, canalette e griglie, fioriere, elementi reggi scarpata, pozzetti prolunghe e chiusini.",
+  "lang": "it-IT",
+  "counts": {
+   "images": 121,
+   "links": 99,
+   "scripts": 23,
+   "styles": 8
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": true,
+  "hasMailto": true,
+  "hasWhatsapp": true,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 475,
+   "heaviestKb": 192,
+   "heaviestUrl": "https://www.cemenbloc.it/wp-content/uploads/2025/11/logo_cementblock-300x191-1.png"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Centro Commerciale Bracciano",
+  "town": "Bracciano",
+  "url": "https://www.centrocommercialebracciano.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 121,
+  "htmlKb": 69,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Centro Commerciale Bracciano",
+  "description": null,
+  "lang": "it-IT",
+  "counts": {
+   "images": 14,
+   "links": 35,
+   "scripts": 5,
+   "styles": 3
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": true,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2026,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 318,
+   "heaviestKb": 153,
+   "heaviestUrl": "https://www.centrocommercialebracciano.it/wp-content/uploads/2024/05/logo-bracciano.png"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Centro Diesel",
+  "town": "",
+  "url": "https://www.centrodieselcivitavecchia.com/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 168,
+  "htmlKb": 188,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Manutenzione motori diesel - Civitavecchia - Roma - Centro Diesel",
+  "description": "Centro Diesel è un",
+  "lang": "it",
+  "counts": {
+   "images": 21,
+   "links": 19,
+   "scripts": 20,
+   "styles": 1
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": true,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": false,
+   "instagram": false,
+   "tripadvisor": true
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 248,
+   "heaviestKb": 68,
+   "heaviestUrl": "https://irp.cdn-website.com//8f1b2aa7/import/base/dms3rep/multi/opt/img.LTExMDk0MjU5Nw-1173w.jpeg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Centro Immersioni Civitavecchia",
+  "town": "",
+  "url": "http://www.centroimmersionicivitavecchia.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 54,
+  "htmlKb": 7,
+  "lastModified": "Tue, 13 Jan 2015 12:57:16 GMT",
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Centro Immersioni Civitavecchia",
+  "description": "Il Diving � situato nel Porto Turistico di Riva di Traiano, nel tratto di mare tra Santa Marinella e Civitavecchia, a tre quarti d",
+  "lang": null,
+  "counts": {
+   "images": 11,
+   "links": 7,
+   "scripts": 0,
+   "styles": 0
+  },
+  "hasViewport": false,
+  "fixedWidthPx": true,
+  "tableLayout": true,
+  "hasForm": false,
+  "hasTelLink": false,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": [
+    "http://www.centroimmersionicivitavecchia.it/listino.html"
+   ]
+  },
+  "hoursWords": false,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": null,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 37,
+   "heaviestKb": 21,
+   "heaviestUrl": "http://www.centroimmersionicivitavecchia.it/gommone100.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Centro per l’Impiego Bracciano",
+  "town": "",
+  "url": "https://www.informagiovaniroma.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 71,
+  "htmlKb": 73,
+  "lastModified": "Fri, 04 Sep 2026 11:45:04 GMT",
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Informagiovani Roma",
+  "description": "Servizio gratuito di orientamento e informazione sulle opportunità per i giovani da 14 a 35 anni. Richiedi un colloquio di orientamento",
+  "lang": "it",
+  "counts": {
+   "images": 35,
+   "links": 130,
+   "scripts": 42,
+   "styles": 32
+  },
+  "hasViewport": true,
+  "fixedWidthPx": false,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": false,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2026,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 4,
+   "totalKb": 697,
+   "heaviestKb": 623,
+   "heaviestUrl": "https://www.informagiovaniroma.it/wp-content/uploads/2026/09/ritmo-roma-1200x627_26-copia.png"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Centro Solidarietà a Cerveteri",
+  "town": "",
+  "url": "https://cscassociazione.wordpress.com/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 119,
+  "htmlKb": 83,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "ASSOCIAZIONE CENTRO DI SOLIDARIETÀ A CERVETERI | &#8230; Gente che aiuta la Gente &#8230;",
+  "description": "Vieni a trovarci Pagina Facebook ASSOCIAZIONE CENTRO DI SOLIDARIETÀ A CERVETERI Il Centro di Solidarietà a Cerveteri &quot;CSC&quot; è un’associazione di volontariato che opera nel settore Servizi Sociali nel contrasto della povertà alimentare e farmaceutica, nel contrasto del disagio relazionale ce",
+  "lang": "it-IT",
+  "counts": {
+   "images": 5,
+   "links": 31,
+   "scripts": 7,
+   "styles": 6
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": false,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": 2020,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 5,
+   "totalKb": 96,
+   "heaviestKb": 86,
+   "heaviestUrl": "https://cscassociazione.wordpress.com/wp-content/uploads/2017/07/pacco-solidale.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "CIA Diffusione Abbigliamento",
+  "town": "",
+  "url": "https://ciadiffusione.it/",
+  "redirected": true,
+  "status": 200,
+  "ttfbMs": 491,
+  "htmlKb": 114,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Ciadiffusione.it - Moda, stile e abbigliamento: conoscenze e tendenze",
+  "description": "Ciadiffusione.it offre approfondimenti e notizie su moda, stile e abbigliamento completo. Scopri le ultime tendenze, consigli di stile e analisi del settore per rimanere sempre aggiornato.",
+  "lang": "it",
+  "counts": {
+   "images": 77,
+   "links": 195,
+   "scripts": 1,
+   "styles": 2
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": true,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": false,
+  "social": {
+   "facebook": false,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 4,
+   "totalKb": 176,
+   "heaviestKb": 75,
+   "heaviestUrl": "https://cdn.ciadiffusione.it/unsafe/rs:fit:1280/q:60/plain/blog-assets/thumbnail/fcaa65986b429bcd8cc36364130d00a4/kate-moss-icona-di-stile-e-business-la-sua-lezione-per-la-moda.webp"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Ciervo Termoidraulica",
+  "town": "Bracciano",
+  "url": "http://www.ciervotermoidraulica.com/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 124,
+  "htmlKb": 2,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "ciervotermoidraulica.com",
+  "description": "This domain name has been registered with Gandi.net. It is currently parked by the owner.",
+  "lang": null,
+  "counts": {
+   "images": 0,
+   "links": 2,
+   "scripts": 0,
+   "styles": 1
+  },
+  "hasViewport": true,
+  "fixedWidthPx": false,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": false,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": false,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": false,
+  "english": true,
+  "social": {
+   "facebook": false,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": null,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 0,
+   "totalKb": 0,
+   "heaviestKb": 0,
+   "heaviestUrl": null
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "CISL Pensionati",
+  "town": "Anguillara Sabazia",
+  "url": "https://www.pensionati.cisl.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 786,
+  "htmlKb": 93,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Il sindacato FNP CISL: la federazione nazionale pensionati CISL",
+  "description": "I diritti non sono privilegi. NOI LI DIFENDIAMO.Unisciti alla Federazione Nazionale Pensionati CISL",
+  "lang": "it-IT",
+  "counts": {
+   "images": 35,
+   "links": 155,
+   "scripts": 12,
+   "styles": 1
+  },
+  "hasViewport": true,
+  "fixedWidthPx": false,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": true,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 1856,
+   "heaviestKb": 909,
+   "heaviestUrl": "https://www.pensionati.cisl.it/img/menu-cosa-facciamo.png"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Computer house",
+  "town": "Anguillara Sabazia",
+  "url": "https://www.comphouse.info/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 192,
+  "htmlKb": 18,
+  "lastModified": "Fri, 04 Sep 2026 12:38:06 GMT",
+  "platform": "Joomla",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Home - Computer House di Ceccarini Fabrizio - Vendita consulenza assistenza informatica - Anguillara Sabazia Roma",
+  "description": "Computer House di Ceccarini Fabrizio, via Anguillarese 41/a 00061 Anguillara Sabazia (RM) - Vendita consulenza e assistenza informatica, personal computer PC, notebook, tablet, smartphone, periferiche, software e hardware, sviluppo siti web SEO e software aziendali.",
+  "lang": "it-it",
+  "counts": {
+   "images": 6,
+   "links": 20,
+   "scripts": 16,
+   "styles": 0
+  },
+  "hasViewport": true,
+  "fixedWidthPx": false,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": false,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": null,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 773,
+   "heaviestKb": 319,
+   "heaviestUrl": "https://www.comphouse.info/images/home3.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Comune di Manziana",
+  "town": "Manziana",
+  "url": "https://comune.manziana.rm.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 2529,
+  "htmlKb": 80,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Homepage | Comune di Manziana",
+  "description": "Homepage - Comune di Manziana",
+  "lang": "it",
+  "counts": {
+   "images": 17,
+   "links": 96,
+   "scripts": 14,
+   "styles": 57
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": false,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 1958,
+   "heaviestKb": 1365,
+   "heaviestUrl": "https://comune.manziana.rm.it/sites/comune.manziana.rm.it/files/styles/wide/public/2026-08/eventi-settembre.png?itok=xXEqCCrh"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Controvento Fregene",
+  "town": "",
+  "url": "https://www.controventofregene.com/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 165,
+  "htmlKb": 53,
+  "lastModified": "Thu, 03 Sep 2026 08:43:54 GMT",
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Home - Controvento",
+  "description": "[:it]Ristorante e stabilimento a Fregene Controvento. Prenota Ora![:en]Restaurant and Beachhouse on the beach in Fregene Controvento. Book Now![:]",
+  "lang": "it-IT",
+  "counts": {
+   "images": 13,
+   "links": 30,
+   "scripts": 18,
+   "styles": 15
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": true,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2026,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 865,
+   "heaviestKb": 268,
+   "heaviestUrl": "https://www.controventofregene.com/wp-content/themes/controvento/images/ristorante-al-mare-fregene-controvento.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Coop",
+  "town": "Civitavecchia",
+  "url": "https://coopetruria.coop.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 756,
+  "htmlKb": 71,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Unicoop Etruria | Supermercati, promozioni e vantaggi - Unicoop Etruria",
+  "description": "Entra nel portale Unicoop Etruria e scopri i vantaggi per i soci, i prodotti e le offerte. Trova il negozio più vicino a te. Siamo in Toscana, Lazio,  Umbria e Marche.",
+  "lang": "it",
+  "counts": {
+   "images": 36,
+   "links": 67,
+   "scripts": 0,
+   "styles": 19
+  },
+  "hasViewport": true,
+  "fixedWidthPx": false,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": true,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2025,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 226,
+   "heaviestKb": 91,
+   "heaviestUrl": "https://s7g10.scene7.com/is/image/unicooptirreno/Istituzionale/servizi_e_convenzioni_def/maialino-prestitosociale.jpg?$desktop$"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Crazy Bull Cafè Restaurant",
+  "town": "Bracciano",
+  "url": "https://www.crazybullcafe.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 995,
+  "htmlKb": 64,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Crazy Bull Cafè Bracciano | Sito Ufficiale",
+  "description": "Crazy Bull Cafè a Bracciano è il punto di riferimento per cucina Tex-Mex e americana a Roma e nel Lazio.Da noi troverai hamburger e carne alla griglia",
+  "lang": "it",
+  "counts": {
+   "images": 23,
+   "links": 46,
+   "scripts": 11,
+   "styles": 10
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": true,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": true,
+   "asImage": false,
+   "links": [
+    "https://www.crazybullcafe.it/data/file/menu-crazy-bull-web.pdf",
+    "https://www.crazybullcafe.it/data/file/menu-crazy-bull-web.pdf",
+    "https://www.crazybullcafe.it/data/file/menu-crazy-bull-web.pdf"
+   ]
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2004,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 69,
+   "heaviestKb": 27,
+   "heaviestUrl": "https://www.crazybullcafe.it/data/loghi/logocrazybull.webp"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Cross Roads Live Club",
+  "town": "Roma",
+  "url": "https://www.crossroadsliveclub.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 127,
+  "htmlKb": 785,
+  "lastModified": null,
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Home - CrossRoads Live Club",
+  "description": null,
+  "lang": "it-IT",
+  "counts": {
+   "images": 25,
+   "links": 85,
+   "scripts": 21,
+   "styles": 1
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": true,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2026,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 590,
+   "heaviestKb": 539,
+   "heaviestUrl": "https://www.crossroadsliveclub.it/wp-content/uploads/2026/08/2X2-25-SETTEMBRE-2026-740x740.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Delegazione ACI Anguillara Sabazia",
+  "town": "",
+  "url": "https://www.acianguillara.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 417,
+  "htmlKb": 110,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Delegazione ACI Anguillara Sabazia &#8211; Sito istituzionale della Delegazione ACI RM414",
+  "description": null,
+  "lang": "it-IT",
+  "counts": {
+   "images": 5,
+   "links": 14,
+   "scripts": 8,
+   "styles": 5
+  },
+  "hasViewport": true,
+  "fixedWidthPx": false,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": false,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": 1998,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 3,
+   "totalKb": 2223,
+   "heaviestKb": 2184,
+   "heaviestUrl": "https://www.acianguillara.it/media-up/2018/08/cropped-Copertina-sito.png"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Doreca",
+  "town": "Bracciano",
+  "url": "http://www.doreca.com/",
+  "redirected": true,
+  "status": 200,
+  "ttfbMs": 72,
+  "htmlKb": 0,
+  "lastModified": "Fri, 10 Nov 2023 09:25:44 GMT",
+  "platform": null,
+  "https": false,
+  "httpsProblem": "сертификату нельзя доверять",
+  "title": null,
+  "description": null,
+  "lang": null,
+  "counts": {
+   "images": 0,
+   "links": 0,
+   "scripts": 0,
+   "styles": 0
+  },
+  "hasViewport": false,
+  "fixedWidthPx": false,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": false,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": false,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": false,
+  "english": false,
+  "social": {
+   "facebook": false,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": null,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 0,
+   "totalKb": 0,
+   "heaviestKb": 0,
+   "heaviestUrl": null
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Edil Domus Ceramiche",
+  "town": "Anguillara Sabazia",
+  "url": "https://www.edildomusceramiche.com/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 118,
+  "htmlKb": 8,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "Home Page - edildomusceramiche",
+  "description": "Negozio di pavimenti, rivestimenti, arredo bagno, porte, parquet, stufe, camini e caldaie ad Anguillara Sabazia.",
+  "lang": "it",
+  "counts": {
+   "images": 0,
+   "links": 0,
+   "scripts": 5,
+   "styles": 1
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": false,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": false,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": false,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": null,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 0,
+   "totalKb": 0,
+   "heaviestKb": 0,
+   "heaviestUrl": null
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Elettromix Expert Cerenova",
+  "town": "",
+  "url": "https://www.expert.it/it/it/exp/extra/rs/detail/RS199",
+  "redirected": true,
+  "status": 200,
+  "ttfbMs": 765,
+  "htmlKb": 325,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "EXPERT - ELETTRO MIX S.R.L. | Expert Italia",
+  "description": "Scopri i negozi e le promozioni di Expert ELETTRO MIX S.R.L. | Expert Italia",
+  "lang": "it",
+  "counts": {
+   "images": 16,
+   "links": 708,
+   "scripts": 20,
+   "styles": 10
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": false,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": true,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2026,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 35,
+   "heaviestKb": 8,
+   "heaviestUrl": "https://www.expert.it/MEDIA/EXPERT/EXPERT/Images/Global/StoreDetail/store_img_fallback.png"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Euro Marmi",
+  "town": "Roma",
+  "url": "http://www.euromarmisantori.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 230,
+  "htmlKb": 16,
+  "lastModified": "Fri, 04 Sep 2026 12:38:08 GMT",
+  "platform": "Joomla",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Euromarmi Snc di Santori F. &amp; C.",
+  "description": "Euromarmi Snc di F.Santori &amp; C.",
+  "lang": "it-it",
+  "counts": {
+   "images": 1,
+   "links": 4,
+   "scripts": 11,
+   "styles": 0
+  },
+  "hasViewport": true,
+  "fixedWidthPx": false,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": false,
+  "hasMailto": true,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": false,
+  "english": false,
+  "social": {
+   "facebook": true,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2017,
+  "newestYearOnPage": 2017,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 1,
+   "totalKb": 166,
+   "heaviestKb": 166,
+   "heaviestUrl": "http://www.euromarmisantori.it/images/2017/09/22/560557_143932709084242_1691692627_n.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Euro Surgelati Italia",
+  "town": "Civitavecchia",
+  "url": "https://www.eurosurgelati.it/",
+  "redirected": false,
+  "status": 200,
+  "ttfbMs": 108,
+  "htmlKb": 200,
+  "lastModified": "Fri, 04 Sep 2026 11:48:02 GMT",
+  "platform": "WordPress",
+  "https": true,
+  "httpsProblem": null,
+  "title": "Euro Surgelati Italia - Da 35 anni conserviamo al meglio i tuoi prodotti.",
+  "description": "Euro Surgelati Italia - Nasciamo con lo scopo di rendere accessibili a tutti prodotti provenienti dal mercato ittico di alta qualità.",
+  "lang": "it-IT",
+  "counts": {
+   "images": 8,
+   "links": 56,
+   "scripts": 26,
+   "styles": 18
+  },
+  "hasViewport": true,
+  "fixedWidthPx": true,
+  "tableLayout": false,
+  "hasForm": false,
+  "hasTelLink": false,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": true,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": true,
+  "social": {
+   "facebook": true,
+   "instagram": true,
+   "tripadvisor": false
+  },
+  "copyrightYear": null,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": false,
+  "images": {
+   "checked": 6,
+   "totalKb": 822,
+   "heaviestKb": 292,
+   "heaviestUrl": "https://www.eurosurgelati.it/wp-content/uploads/2021/04/eurosurgelati-home-slide-01.jpg"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ },
+ {
+  "name": "Expert",
+  "town": "",
+  "url": "https://www.dgg.it/auth/",
+  "redirected": true,
+  "status": 200,
+  "ttfbMs": 661,
+  "htmlKb": 15,
+  "lastModified": null,
+  "platform": null,
+  "https": true,
+  "httpsProblem": null,
+  "title": "DGGroup Portal Login Page PLP",
+  "description": null,
+  "lang": "en",
+  "counts": {
+   "images": 10,
+   "links": 4,
+   "scripts": 6,
+   "styles": 3
+  },
+  "hasViewport": true,
+  "fixedWidthPx": false,
+  "tableLayout": false,
+  "hasForm": true,
+  "hasTelLink": false,
+  "hasMailto": false,
+  "hasWhatsapp": false,
+  "bookingWords": false,
+  "menu": {
+   "mentioned": false,
+   "asPdf": false,
+   "asImage": false,
+   "links": []
+  },
+  "hoursWords": true,
+  "english": false,
+  "social": {
+   "facebook": false,
+   "instagram": false,
+   "tripadvisor": false
+  },
+  "copyrightYear": 2006,
+  "newestYearOnPage": 2026,
+  "hasFlash": false,
+  "jqueryOld": true,
+  "images": {
+   "checked": 6,
+   "totalKb": 232,
+   "heaviestKb": 192,
+   "heaviestUrl": "https://www.dgg.it/auth/img/TeamViewer_DG_logo.png"
+  },
+  "error": null,
+  "judged": "не вышло",
+  "judgeError": "Cannot convert argument to a ByteString because the character at index 7 has a value of 1089 which is greater than 255."
+ }
+]
